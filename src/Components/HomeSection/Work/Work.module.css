@@ -1,0 +1,93 @@
+.workContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.workContainer h2 {
+  color: #212529;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+  font-size: 2rem;
+}
+
+.workSections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-top: 2.2rem;
+}
+
+.workLinks {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.workLinks img {
+  width: 100%;
+}
+
+.workLinks a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ed5c4d;
+  margin-top: 35px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8;
+}
+
+.workLinks .mit {
+  color: #000;
+  margin: 0;
+  font-size: calc(1.3rem + 0.6vw);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.workLinks .mit:hover {
+  color: #ed5c4d;
+}
+
+.workSectionsTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-top: 5.5rem;
+}
+
+.workContainer button {
+  background-color: #273253;
+  color: #f4e9da;
+  border: none;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 6rem;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.8;
+  font-size: 0.9rem;
+}
+
+.workContainer .btn {
+  color: #f4e9da;
+  text-decoration: none;
+}
+
+.workContainer button:hover {
+  background-color: #ee4e3c;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}

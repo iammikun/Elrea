@@ -1,0 +1,124 @@
+.footerContainer {
+  width: 100%;
+  background: #273253;
+  color: #f4e9da;
+  padding-top: 6.25rem;
+  /* padding-bottom: 2rem; */
+}
+
+.footerContent {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 7rem;
+  margin-bottom: 7rem;
+}
+
+.firstWrap,
+.secondWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.secondWrap {
+  gap: 11rem;
+}
+
+.sectOne h4,
+.sectTwo h4,
+.sectThree h4,
+.sectFour h4 {
+  font-size: calc(1.275rem + 0.3vw);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+.sectOne .socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1.7rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 3.3rem;
+  align-items: center;
+}
+
+.socials a {
+  text-decoration: none;
+  border: 1px solid #f4e9da;
+  padding-top: 0.4rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  color: #f4e9da;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.sectOne li,
+.sectTwo li,
+.sectThree li,
+.sectFour li {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.sectOne li a,
+.sectTwo li a,
+.sectThree li a,
+.sectFour li a {
+  color: #f4e9da;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.3846153846rem 0;
+  font-weight: 500;
+  line-height: 2;
+}
+
+hr {
+  color: #f4e9da;
+  opacity: 0.1;
+}
+
+.finale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2.2rem;
+  padding-bottom: 2.7rem;
+  align-items: center;
+}
+
+.finale p {
+  color: #f4e9da;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.finale ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.finale li {
+  list-style: none;
+}
+
+.finale a {
+  color: #f4e9da;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.3846153846rem 0;
+  font-weight: 500;
+  line-height: 2;
+}

@@ -1,0 +1,97 @@
+.serviceContainer {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.serviceText {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.serviceText h5 {
+  color: #ed5c4d;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.serviceText h3 {
+  font-size: calc(1.3rem + 0.6vw);
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: 1.4;
+  width: 40%;
+  margin-bottom: 2rem;
+  color: #212529;
+}
+
+.serviceFlex,
+.serviceFlexSecond {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.serviceFlex .marketingIcon,
+.serviceFlexSecond .devIcon {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #fbbe4b;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.serviceFlex h4,
+.serviceFlexSecond h4 {
+  margin-bottom: 1.5rem !important;
+  font-size: calc(1.275rem + 0.3vw);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #212529;
+  -webkit-text-size-adjust: 100%;
+  margin-top: 1rem;
+}
+
+.serviceFlex p,
+.serviceFlexSecond p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 1.8;
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+}
+
+.serviceFlex .webIcon {
+  color: #ed5c4d;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.serviceFlex .brandIcon {
+  color: #57b5ed;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.serviceFlexSecond .designIcon {
+  color: #ed5c4d;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.serviceFlexSecond .conIcon {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: calc(1.375rem + 1.5vw);
+  color: #212529;
+}
