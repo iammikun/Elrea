@@ -45,3 +45,9 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .toggler .btn {
+    font-size: 1.8rem;
+  }
+}
