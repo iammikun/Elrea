@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  padding-top: 6.25rem !important;
+  padding-bottom: 4rem;
+  /* background: linear-gradient(180deg, #f4e9da 75%, #fff 75%); */
+  background-color: #f4e9da;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper h1 {
+  font-size: calc(1.375rem + 1.5vw);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #ed5c4d;
+}
+
+.wrapper p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #212529;
+}

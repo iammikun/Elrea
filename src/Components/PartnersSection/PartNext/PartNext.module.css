@@ -75,3 +75,33 @@
 .partContentTwo {
   padding-top: 3rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .partContent,
+  .partContentTwo {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .partContent,
+  .partContentTwo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .partContent,
+  .partContentTwo {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .partContent,
+  .partContentTwo {
+    width: 90%;
+  }
+}

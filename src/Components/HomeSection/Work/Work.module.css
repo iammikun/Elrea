@@ -91,3 +91,55 @@
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
 }
+
+@media screen and (max-width: 1024px) {
+  .workContainer {
+    width: 90%;
+  }
+
+  .workSectionsTwo {
+    margin-top: 3rem;
+  }
+
+  .workContainer button {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .workContainer {
+    margin-top: -3rem;
+    width: 70%;
+  }
+  .workSections,
+  .workSectionsTwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .workLinks {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .workContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .workContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .workSections {
+    margin-top: 2rem;
+  }
+
+  .workContainer h2 {
+    font-size: 1.6rem;
+  }
+}

@@ -39,3 +39,15 @@
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
 }
+
+@media screen and (max-width: 1024px) {
+  .navUl {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .navUl {
+    display: none;
+  }
+}

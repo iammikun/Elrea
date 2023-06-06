@@ -125,3 +125,57 @@
     -webkit-box-shadow 0.15s ease-in-out;
   background-color: #ee4e3c;
 }
+
+@media screen and (max-width: 1024px) {
+  .blogContent {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .blogContent {
+    width: 70%;
+  }
+
+  .blogContent {
+    margin-top: -3rem;
+  }
+  .blogWrapper {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0 auto; */
+  }
+
+  .left,
+  .middle,
+  .right {
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .blogContent {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .blogContent {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blogContent h2 {
+    font-size: 1.6rem;
+  }
+
+  .left h2,
+  .middle h2,
+  .right h2 {
+    font-size: 1.24rem;
+  }
+}

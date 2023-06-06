@@ -95,3 +95,56 @@
   font-size: calc(1.375rem + 1.5vw);
   color: #212529;
 }
+
+@media screen and (max-width: 1024px) {
+  .serviceText {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .serviceText {
+    width: 70%;
+  }
+
+  .serviceFlex,
+  .serviceFlexSecond {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .serviceText h3 {
+    width: 100%;
+  }
+
+  .serviceFlex p,
+  .serviceFlexSecond p {
+    margin-bottom: 4rem;
+  }
+
+  .serviceFlexSecond {
+    margin-top: -4rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .serviceText {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .serviceText {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .serviceContainer {
+    margin-top: 4rem;
+  }
+
+  .serviceFlexSecond {
+    margin-bottom: 3rem;
+  }
+}

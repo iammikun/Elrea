@@ -8,12 +8,8 @@ const Footer = () => {
       <div className={classes.footerContent}>
         <div className={classes.firstWrap}>
           <div className={classes.sectOne}>
-            <h4>
-              123 main street ground <br /> floor 116 London UK
-            </h4>
-            <h4>
-              +19 855 518 386 <br /> hello@moiz.com
-            </h4>
+            <h4>123 main street ground floor 116 London UK</h4>
+            <h4>+19 855 518 386 hello@moiz.com</h4>
             <div className={classes.socials}>
               <a href="/">
                 <FaFacebookF className={classes.media} />

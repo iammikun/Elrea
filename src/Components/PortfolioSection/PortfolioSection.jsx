@@ -1,10 +1,14 @@
 import React from "react";
+import Hero from "../PortfolioSection/Hero/Hero";
+import Content from "./PortContent/Content";
 
 const PortfolioSection = () => {
   return (
     <div>
-      <div></div>
-      {/* <p>oqjklfnma,cdzok</p> */}
+      <div>
+        <Hero />
+        <Content />
+      </div>
     </div>
   );
 };

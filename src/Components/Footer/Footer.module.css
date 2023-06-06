@@ -39,6 +39,10 @@
   margin-bottom: 1.5rem;
 }
 
+.sectOne h4 {
+  width: 80%;
+}
+
 .sectOne .socials {
   display: flex;
   flex-direction: row;
@@ -94,7 +98,7 @@ hr {
   margin: 0 auto;
   padding-top: 2.2rem;
   padding-bottom: 2.7rem;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .finale p {
@@ -121,4 +125,73 @@ hr {
   padding: 0.3846153846rem 0;
   font-weight: 500;
   line-height: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .footerContent,
+  .finale {
+    width: 90%;
+  }
+
+  .footerContent {
+    gap: 3rem;
+  }
+
+  .firstWrap {
+    gap: 1rem;
+  }
+
+  .secondWrap {
+    gap: 2rem;
+  }
+
+  .sectOne h4 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .footerContent {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstWrap,
+  .secondWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    width: 100%;
+  }
+
+  .sectOne h4 {
+    width: 100%;
+  }
+
+  .finale {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .footerContent,
+  .finale {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .footerContent,
+  .finale {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .finale {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
 }

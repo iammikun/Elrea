@@ -20,6 +20,9 @@
 
 textarea {
   width: 100%;
+  padding: 1rem;
+  color: #495057;
+  outline: none;
 }
 
 .contactForm a {
@@ -35,6 +38,7 @@ textarea {
   margin-top: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .right {

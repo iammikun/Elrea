@@ -21,3 +21,27 @@
   font-weight: 800;
   font-size: 1.8rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .headerContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .headerContainer {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .headerContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .headerContainer {
+    width: 90%;
+  }
+}

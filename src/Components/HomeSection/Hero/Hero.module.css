@@ -24,7 +24,6 @@
 .heroText h1 {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-  font-size: calc(1.375rem + 1.5vw);
   font-size: 3rem;
   line-height: 1.2;
   width: 75%;
@@ -42,4 +41,76 @@
   background-repeat: no-repeat;
   min-height: 75vh;
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroText {
+    width: 90%;
+  }
+  .heroText h1 {
+    width: 89%;
+    font-size: 2.8rem;
+  }
+
+  .heroText h2 {
+    font-size: calc(1.205rem + 0.9vw);
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .heroText {
+    width: 70%;
+  }
+
+  .heroText h1 {
+    font-size: 2.7rem;
+  }
+
+  .heroImg {
+    min-height: 33vh;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .heroText {
+    width: 80%;
+  }
+
+  .heroText h1 {
+    font-size: 2.6rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .heroText {
+    width: 90%;
+    padding-top: 5rem;
+  }
+
+  .heroText h1 {
+    font-size: 2.7rem;
+    width: 100%;
+  }
+
+  .heroImg {
+    min-height: 38vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heroText {
+    padding-bottom: 5.5rem;
+  }
+
+  .heroText h1 {
+    font-size: 2.3rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .heroText h1 {
+    font-size: 2.2rem;
+  }
 }

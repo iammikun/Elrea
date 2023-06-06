@@ -78,6 +78,7 @@ form input {
   background-color: Transparent;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
+  outline: none;
 }
 
 .subBtn {
@@ -105,4 +106,71 @@ form input {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscribeContent {
+    width: 90%;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .subscribeContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5rem;
+    width: 75%;
+  }
+
+  .subText {
+    width: 100%;
+  }
+
+  .subText h2 {
+    font-size: calc(1.331rem + 0.9vw);
+    width: 100%;
+  }
+
+  .subText p {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .subscribeContent {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .subscribeContent {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  form {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+
+  .subscribeContainer {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .subscribeContent {
+    width: 90%;
+  }
 }
