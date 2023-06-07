@@ -138,4 +138,9 @@
   .contentContainer {
     margin-top: 6rem;
   }
+
+  .imgContainer {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
 }

@@ -26,6 +26,10 @@
   display: none;
 }
 
+.mobileNav {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .headerContainer {
     width: 90%;
@@ -35,6 +39,48 @@
 @media screen and (max-width: 990px) {
   .headerContainer {
     width: 70%;
+  }
+
+  .toggler {
+    display: block;
+  }
+
+  .toggler .btn {
+    font-size: 1.8rem;
+  }
+
+  .mobileNav {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    padding-bottom: 1.5rem;
+  }
+
+  .navUl {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .navUl li {
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  .navUl li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+  }
+
+  .span {
+    border: 1px solid #000;
+    margin-top: 10px;
   }
 }
 

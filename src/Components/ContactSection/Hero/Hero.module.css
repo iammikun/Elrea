@@ -30,3 +30,41 @@
   color: #212529;
   width: 50%;
 }
+
+@media screen and (max-width: 1024px) {
+  .heroContent {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .heroContent {
+    width: 70%;
+  }
+
+  .heroContent p,
+  .heroContent h1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .heroContent {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .heroContent {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding-top: 4rem;
+  }
+  .heroContent h1 {
+    width: 80%;
+  }
+}
