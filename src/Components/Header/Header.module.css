@@ -47,15 +47,23 @@
 
   .toggler .btn {
     font-size: 1.8rem;
+    cursor: pointer;
   }
 
   .mobileNav {
+    display: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .activeMobileNav {
     display: block;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 1.5rem;
     background-color: #fff;
     padding-bottom: 1.5rem;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(1%);
   }
 
   .navUl {

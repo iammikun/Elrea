@@ -5,41 +5,59 @@ import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
-  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(false);
+
+  const closeMenu = () => {
+    setActive(false);
+  };
 
   return (
     <div className={classes.wrapper}>
       <div className={classes.headerContainer}>
-        <Link to="/">Moiz</Link>
+        <Link to="/" onClick={closeMenu}>
+          Moiz
+        </Link>
         <Nav />
-        <div className={classes.toggler}>
+        <div className={classes.toggler} onClick={() => setActive(!active)}>
           <GiHamburgerMenu className={classes.btn} />
         </div>
       </div>
-      <nav className={classes.mobileNav}>
+      <nav className={active ? classes.activeMobileNav : classes.mobileNav}>
         <ul className={classes.navUl}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={closeMenu}>
+              Home
+            </Link>
             <hr className={classes.span} />
           </li>
           <li>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/portfolio" onClick={closeMenu}>
+              Portfolio
+            </Link>
             <hr className={classes.span} />
           </li>
           <li>
-            <Link to="/team">Team</Link>
+            <Link to="/team" onClick={closeMenu}>
+              Team
+            </Link>
             <hr className={classes.span} />
           </li>
           <li>
-            <Link to="/partners">Partners</Link>
+            <Link to="/partners" onClick={closeMenu}>
+              Partners
+            </Link>
             <hr className={classes.span} />
           </li>
           <li>
-            <Link to="/about">About us</Link>
+            <Link to="/about" onClick={closeMenu}>
+              About us
+            </Link>
             <hr className={classes.span} />
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={closeMenu}>
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
