@@ -113,6 +113,56 @@
   background-image: url(../../../Asset/Images/aboutImg.jpg);
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   min-height: 80vh;
   margin-top: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+    gap: 4rem;
+  }
+
+  .aboutImg {
+    /* min-width: 100vw; */
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutText,
+  .aboutBlue {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .aboutImg {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .aboutBlue {
+    padding-left: 1.5rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2.2rem !important;
+    padding-bottom: 2.2rem !important;
+  }
 }

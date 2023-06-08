@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  margin-top: 6.25rem;
+  margin-top: 4rem;
 }
 
 .content {
@@ -77,4 +77,37 @@
   color: #000;
   font-weight: 500;
   line-height: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    margin-top: 2rem;
+  }
+  .content {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .flexOne {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .content {
+    width: 90%;
+  }
 }

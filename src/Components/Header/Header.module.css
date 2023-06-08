@@ -51,7 +51,7 @@
 
   .mobileNav {
     display: block;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 1.5rem;
     background-color: #fff;
@@ -88,10 +88,18 @@
   .headerContainer {
     width: 80%;
   }
+
+  .mobileNav {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 770px) {
   .headerContainer {
+    width: 90%;
+  }
+
+  .mobileNav {
     width: 90%;
   }
 }
