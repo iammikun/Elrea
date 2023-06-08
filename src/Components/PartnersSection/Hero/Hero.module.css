@@ -38,6 +38,10 @@
 }
 
 @media screen and (max-width: 990px) {
+  .heroContainer {
+    padding-top: 5rem;
+  }
+
   .heroContent {
     width: 70%;
   }
@@ -56,12 +60,5 @@
 @media screen and (max-width: 770px) {
   .heroContent {
     width: 90%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .heroContent {
-    margin-top: -4rem;
-    margin-bottom: -2rem;
   }
 }
