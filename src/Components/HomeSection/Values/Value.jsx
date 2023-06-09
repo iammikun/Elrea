@@ -6,8 +6,9 @@ const Value = () => {
   return (
     <div className={classes.valueContainer}>
       <div className={classes.valueContent}>
-        <img src={value} alt="" />
-        <div className={classes.after}></div>
+        <div className={classes.borderRight}>
+          <img src={value} alt="" />
+        </div>
         <div className={classes.valueText}>
           <h2>Our Values</h2>
           <p>

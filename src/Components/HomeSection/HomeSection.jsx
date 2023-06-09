@@ -4,7 +4,7 @@ import Services from "./Services/Services";
 import Work from "./Work/Work";
 import Value from "./Values/Value";
 import Blog from "./Blog/Blog";
-// import Quote from "./Quote/Quote";
+import Quote from "./Quote/Quote";
 
 const HomeSection = () => {
   return (
@@ -13,7 +13,7 @@ const HomeSection = () => {
       <Services />
       <Work />
       <Value />
-      {/* <Quote /> */}
+      <Quote />
       <Blog />
     </div>
   );
