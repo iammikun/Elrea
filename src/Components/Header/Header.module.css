@@ -67,7 +67,7 @@
     margin-top: 1.5rem;
     background-color: #fff;
     padding-bottom: 1.5rem;
-    transition: 850ms;
+    transition: height 0.35s ease;
   }
 
   .navUl {
