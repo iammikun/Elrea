@@ -2,7 +2,7 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import Footer from './Components/Footer/Footer';
-import Subscribe from './Components/Subscribe/Subscribe';
+// import Subscribe from './Components/Subscribe/Subscribe';
 import Header from './Components/Header/Header';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Partners from './Pages/Partners/Partners';
@@ -23,7 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Subscribe />
+      {/* <Subscribe /> */}
       <Footer />
     </div>
   );

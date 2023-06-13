@@ -18,16 +18,6 @@
   width: 50%;
 }
 
-.aboutText h4 {
-  color: #ed5c4d;
-  font-style: italic !important;
-  font-size: calc(1.275rem + 0.3vw);
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 1rem;
-}
-
 .aboutText h1 {
   font-family: "Poppins", sans-serif;
   font-size: calc(1.115rem + 1.5vw);

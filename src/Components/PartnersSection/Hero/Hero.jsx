@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className={classes.heroContainer}>
       <div className={classes.heroContent}>
-        <h2>Certified Partners</h2>
+        <h2>OUR BUSINESS PARTNERS</h2>
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,

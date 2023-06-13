@@ -62,7 +62,7 @@
 
   .activeMobileNav {
     display: block;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 1.5rem;
     background-color: #fff;
@@ -103,7 +103,7 @@
     width: 80%;
   }
 
-  .mobileNav {
+  .activeMobileNav {
     width: 80%;
   }
 }
@@ -113,7 +113,7 @@
     width: 90%;
   }
 
-  .mobileNav {
+  .activeMobileNav {
     width: 90%;
   }
 }
@@ -125,5 +125,9 @@
 
   .toggler .btn {
     font-size: 1.8rem;
+  }
+
+  .activeMobileNav {
+    width: 90%;
   }
 }

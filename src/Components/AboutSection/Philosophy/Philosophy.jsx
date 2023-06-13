@@ -1,22 +1,22 @@
 import React from "react";
-import classes from "./Vision.module.css";
-import vision from "../../../Asset/Images/vision.jpg";
+import classes from "./Philosophy.module.css";
+import mision from "../../../Asset/Images/mision.jpg";
 
-const Vision = () => {
+const Philosophy = () => {
   return (
     <div className={classes.container}>
       <div className={classes.wrapper}>
         <div className={classes.content}>
-          <h2>OUR VISION </h2>
+          <h2>OUR PHILOSOPHY</h2>
           <p className={classes.lead}>
-            To build a diverse future through creative technology solutions that
-            will impact Africa and the world at large.
+            At a molecular unit, excellence, hard work and creativity are
+            ingrained into our DNA's makeup.
           </p>
           <p>
-            Nunc quis dui tincidunt, rutrum orci vitae, porttitor lectus. Nullam
-            tellus justo, euismod quis elit sed, imperdiet aliquam purus. Morbi
-            id lorem orci. Aenean eleifend lorem diam, in maximus lacus finibus
-            at. Aliquam vestibulum arcu in orci fringilla mattis.
+            Deeply embedded in our nature is the constant craving for ethical
+            standards of working, empowering and developing our staff and
+            opening doors and opportunities that would otherwise
+            be unfathomable.
           </p>
           {/* <p>
             Nam pulvinar sapien pulvinar, laoreet sem eu, blandit magna. Duis
@@ -27,7 +27,7 @@ const Vision = () => {
         </div>
         <div className={classes.imgBox}>
           <div className={classes.borderLeft}>
-            <img src={vision} alt="" />
+            <img src={mision} alt="" />
           </div>
         </div>
       </div>
@@ -35,4 +35,4 @@ const Vision = () => {
   );
 };
 
-export default Vision;
+export default Philosophy;

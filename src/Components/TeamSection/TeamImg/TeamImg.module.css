@@ -79,6 +79,10 @@
   line-height: 2;
 }
 
+.last {
+  width: 32%;
+}
+
 @media screen and (max-width: 1024px) {
   .content {
     width: 90%;
@@ -97,6 +101,10 @@
   .flexOne {
     display: flex;
     flex-direction: column;
+  }
+
+  .last {
+    width: 100%;
   }
 }
 
