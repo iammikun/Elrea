@@ -12,12 +12,6 @@ const Mission = () => {
             To constantly be on the lookout for problems and create scalable
             solutions using technology and profound innovation.
           </p>
-          <p>
-            Nunc quis dui tincidunt, rutrum orci vitae, porttitor lectus. Nullam
-            tellus justo, euismod quis elit sed, imperdiet aliquam purus. Morbi
-            id lorem orci. Aenean eleifend lorem diam, in maximus lacus finibus
-            at. Aliquam vestibulum arcu in orci fringilla mattis.
-          </p>
           {/* <p>
             Nam pulvinar sapien pulvinar, laoreet sem eu, blandit magna. Duis
             finibus diam, eget efficitur massa vehicula quis. Nullam vestibulum
