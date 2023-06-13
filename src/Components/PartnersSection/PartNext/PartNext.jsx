@@ -1,45 +1,50 @@
 import React from "react";
 import classes from "./PartNext.module.css";
-import lefttop from "../../../Asset/Images/lefttop.png";
-import middleTop from "../../../Asset/Images/middleTop.png";
-import rightTop from "../../../Asset/Images/rightTop.png";
-import leftBottom from "../../../Asset/Images/leftBottom.png";
-import middleBottom from "../../../Asset/Images/middleBottom.png";
-import rightBottom from "../../../Asset/Images/rightBottom.png";
+import nibss from "../../../Asset/Images/nibss.jpg";
+import nepa from "../../../Asset/Images/nepa.jpg";
+import jos from "../../../Asset/Images/jos.jpg";
+import remita from "../../../Asset/Images/remita.png";
+import bayelsa from "../../../Asset/Images/bayelsa.png";
+import mtn from "../../../Asset/Images/mtn.jpg";
+import rev from "../../../Asset/Images/rev.jpg";
+import NITDA from "../../../Asset/Images/NITDA.webp";
 
 const PartNext = () => {
   return (
     <div className={classes.container}>
       <div className={classes.partContent}>
         <div className={classes.invest}>
-          <img src={lefttop} alt="" />
-          <h4>Investment Partner</h4>
+          <img src={nibss} alt="" />
         </div>
         <div className={classes.bank}>
           {" "}
-          <img src={middleTop} alt="" />
-          <h4>Bank Partner</h4>
+          <img src={nepa} alt="" />
         </div>
         <div className={classes.const}>
           {" "}
-          <img src={rightTop} alt="" />
-          <h4>Construction Partner</h4>
+          <img src={jos} alt="" />
         </div>
       </div>
       <div className={classes.partContentTwo}>
-        <div className={classes.const}>
-          <img src={leftBottom} alt="" />
-          <h4>Construction Partner</h4>
+        <div className={classes.invest}>
+          <img src={remita} alt="" />
         </div>
         <div className={classes.bank}>
           {" "}
-          <img src={middleBottom} alt="" />
-          <h4>Construction Partner</h4>
+          <img src={bayelsa} alt="" />
         </div>
         <div className={classes.const}>
           {" "}
-          <img src={rightBottom} alt="" />
-          <h4>Construction Partner</h4>
+          <img src={mtn} alt="" />
+        </div>
+      </div>
+      <div className={classes.partContentThree}>
+        <div className={classes.invest}>
+          <img src={rev} alt="" />
+        </div>
+        <div className={classes.bank}>
+          {" "}
+          <img src={NITDA} alt="" />
         </div>
       </div>
     </div>

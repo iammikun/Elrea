@@ -13,7 +13,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 1rem;
+}
+
+.partContentThree {
+  display: flex;
+  flex-direction: row;
+  gap: 10.3rem;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .partContent .invest,
@@ -21,13 +29,15 @@
 .partContent .const,
 .partContentTwo .invest,
 .partContentTwo .bank,
-.partContentTwo .const {
+.partContentTwo .const,
+.partContentThree .invest,
+.partContentThree .bank {
   border: 1px solid #000;
   align-items: center;
   text-align: center;
   /* width: 40%; */
-  padding-top: 3.8rem;
-  padding-bottom: 3.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
 }
@@ -44,26 +54,18 @@
   width: 100%;
 }
 
-.bank {
+.bank,
+.const {
   width: 25%;
 }
 
-.invest h4,
-.bank h4,
-.const h4,
-.invest h4,
-.bank h4,
-.const h4 {
-  font-size: calc(1.275rem + 0.3vw);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  line-height: 1.4;
-  color: #ed5c4d;
+.bank > img,
+.const > img {
+  width: 100%;
 }
 
-.partContentTwo {
+.partContentTwo,
+.partContentThree {
   padding-top: 3rem;
 }
 

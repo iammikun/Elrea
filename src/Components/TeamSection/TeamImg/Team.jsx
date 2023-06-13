@@ -16,7 +16,7 @@ const Team = () => {
           <div>
             <img src={firstImg} alt="" />
             <div className={classes.imgWrapper}>
-              <h5>AYENI TIMILEHIN FRANKLIN</h5>
+              <h5>Ayeni Timilehin Franklin</h5>
               <span>President / Co-founder</span>
               <p className={classes.first}>
                 Timilehin is a dynamic entrepreneur with several projects across
@@ -26,19 +26,13 @@ const Team = () => {
                 <a href="/">
                   <FaLinkedinIn className={classes.media} />
                 </a>
-                {/* <a href="/">
-                  <FaInstagram className={classes.media} />
-                </a>
-                <a href="/">
-                  <FaTwitter className={classes.media} />
-                </a> */}
               </div>
             </div>
           </div>
           <div>
             <img src={secondImg} alt="" className={classes.secondImg} />
             <div className={classes.imgWrapper}>
-              <h5>BENJAMIN ELIYE</h5>
+              <h5>Benjamin Eliye</h5>
               <span>Vice President / Co-founder /CFO</span>
               <p className={classes.second}>
                 Ben as he is fondly called has an exceptional skill for detail
@@ -55,7 +49,7 @@ const Team = () => {
           <div>
             <img src={thirdImg} alt="" />
             <div className={classes.imgWrapper}>
-              <h5>OLANIYAN BABAYEMI OLAWOLE</h5>
+              <h5>Olaniyan Babayemi Olawole</h5>
               <span>Chief Legal Officer</span>
               <p>
                 Olaniyan is an experienced legal practitioner with garnered
@@ -74,7 +68,7 @@ const Team = () => {
           <div>
             <img src={fourthImg} alt="" />
             <div className={classes.imgWrapper}>
-              <h5>TUNDE KELANI</h5>
+              <h5>Tunde Kelani</h5>
               <span>Head, Business Development /Brand Management</span>
               <p>
                 Tunde is an adroit business strategist and a team lead
@@ -92,7 +86,7 @@ const Team = () => {
           <div>
             <img src={fifthImg} alt="" />
             <div className={classes.imgWrapper}>
-              <h5>FEMI AJE: </h5>
+              <h5>Femi Aje: </h5>
               <span>Head, Strategy and Innovation</span>
               <p>
                 Prior to joining Trustfund Pensions Limited in 2010, Femi
@@ -110,7 +104,7 @@ const Team = () => {
           <div>
             <img src={sixthImg} alt="" />
             <div className={classes.imgWrapper}>
-              <h5>EDIFOFON AKPAN:</h5>
+              <h5>Edifofon Akpan:</h5>
               <span>Head, System and Technology Development.</span>
               <p>
                 Kalu is the head of IT in Elrae Technologies Ltd. He has worked
@@ -130,7 +124,7 @@ const Team = () => {
           <div className={classes.last}>
             <img src={fourthImg} alt="" />
             <div className={classes.imgWrapper}>
-              <h5>FATIREGUN OLUBUNMI: Technical Consultant</h5>
+              <h5>Fatiregun Olubunmi: Technical Consultant</h5>
               <p>
                 Olubunmi is the Technical Consultant for Elrae Technologies Ltd.
                 He has worked on various projects in the telecommunications
