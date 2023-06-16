@@ -8,22 +8,14 @@ const Philosophy = () => {
       <div className={classes.wrapper}>
         <div className={classes.content}>
           <h2>OUR PHILOSOPHY</h2>
-          <p className={classes.lead}>
-            At a molecular unit, excellence, hard work and creativity are
-            ingrained into our DNA's makeup.
-          </p>
           <p>
-            Deeply embedded in our nature is the constant craving for ethical
-            standards of working, empowering and developing our staff and
-            opening doors and opportunities that would otherwise
-            be unfathomable.
+            You owe it to yourself to be patient and to have grit. These two
+            qualities will help you achieve your goals and live a fulfilling
+            life.
           </p>
-          {/* <p>
-            Nam pulvinar sapien pulvinar, laoreet sem eu, blandit magna. Duis
-            finibus diam, eget efficitur massa vehicula quis. Nullam vestibulum
-            ante ipsum primis in faucibus orci luctus et massa vehicula quis
-            ultrices posuere cubilia curae.
-          </p> */}
+          <p className={classes.lead}>
+            - Ayeni Timilehin Franklin (CEO, Elrae Technologies)
+          </p>
         </div>
         <div className={classes.imgBox}>
           <div className={classes.borderLeft}>

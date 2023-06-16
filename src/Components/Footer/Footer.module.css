@@ -12,28 +12,26 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
-  gap: 7rem;
   margin-bottom: 7rem;
+  gap: 2.2rem;
 }
 
 .firstWrap,
 .secondWrap {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 3rem;
+  /* justify-content: space-between; */
 }
 
 .secondWrap {
-  gap: 11rem;
+  gap: 8rem;
 }
 
 .sectOne h4,
 .sectTwo h4,
 .sectThree h4,
 .sectFour h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.275rem + 0.1vw);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   line-height: 1.4;
@@ -41,7 +39,7 @@
 }
 
 .sectOne h4 {
-  width: 80%;
+  width: 60%;
 }
 
 .sectOne .socials {
@@ -89,6 +87,7 @@
 hr {
   color: #f4e9da;
   opacity: 0.1;
+  padding-bottom: 8rem;
 }
 
 .finale {

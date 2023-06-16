@@ -7,9 +7,8 @@ const Hero = () => {
       <div className={classes.heroContent}>
         <h2>OUR BUSINESS PARTNERS</h2>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
+          We have partnered with some of the most valuable brands and national
+          agencies across Nigeria and Africa at large.
         </p>
       </div>
     </div>
