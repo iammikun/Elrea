@@ -83,17 +83,21 @@
     width: 100%;
   }
 
-  .bank {
+  .bank,
+  .const {
     width: 31%;
   }
 }
 
 @media screen and (max-width: 990px) {
   .partContent,
-  .partContentTwo {
+  .partContentTwo,
+  .partContentThree {
     display: flex;
     flex-direction: column;
     width: 70%;
+    padding-top: 1rem;
+    gap: 1rem;
   }
 
   .invest {
@@ -107,18 +111,24 @@
   .bank {
     width: 100%;
   }
+
+  .const {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 880px) {
   .partContent,
-  .partContentTwo {
+  .partContentTwo,
+  .partContentThree {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 770px) {
   .partContent,
-  .partContentTwo {
+  .partContentTwo,
+  .partContentThree {
     width: 90%;
   }
 }
