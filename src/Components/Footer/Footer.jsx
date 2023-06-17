@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,21 +16,28 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        {/* <div className={classes.sectTwo}>
-          <h4>Information</h4>
-          <li>
-            <a href="/">Insights & Events</a>
-          </li>
-          <li>
-            <a href="/">Certificates</a>
-          </li>
-          <li>
-            <a href="/">Maintenance Instructions</a>
-          </li>
-          <li>
-            <a href="/">Catalogues</a>
-          </li>
-        </div> */}
+        <nav className={classes.navContainer}>
+          <ul className={classes.navUl}>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/portfolio">Portfolio</Link>
+            </li>
+            <li>
+              <Link to="/team">Team</Link>
+            </li>
+            <li>
+              <Link to="/partners">Partners</Link>
+            </li>
+            <li>
+              <Link to="/about">About us</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </nav>
         {/* <div className={classes.secondWrap}>
           <div className={classes.sectThree}>
             <h4>About Us</h4>

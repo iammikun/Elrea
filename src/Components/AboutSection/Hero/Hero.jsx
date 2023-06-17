@@ -29,6 +29,15 @@ const Hero = () => {
               qualities will help you achieve your goals and live a fulfilling
               life.
             </p>
+            <p>
+              Patience lets you see the big picture and focus on your goals,
+              even when things get tough. Grit makes you determined to keep
+              going, even when you want to give up.
+            </p>
+            <p>
+              So don't give up on yourself. Be patient, have grit, and never
+              give up on your dreams.
+            </p>
             <h5>- Ayeni Timilehin Franklin - CEO, Elrae Technologies</h5>
           </div>
           {/* ::after */}
