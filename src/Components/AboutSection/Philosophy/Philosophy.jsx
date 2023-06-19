@@ -9,12 +9,11 @@ const Philosophy = () => {
         <div className={classes.content}>
           <h2>OUR PHILOSOPHY</h2>
           <p>
-            You owe it to yourself to be patient and to have grit. These two
-            qualities will help you achieve your goals and live a fulfilling
-            life.
-          </p>
-          <p className={classes.lead}>
-            - Ayeni Timilehin Franklin (CEO, Elrae Technologies)
+            As a molecular unit, excellence, hard work and creativity are
+            ingrained into our DNA's makeup. Deeply embedded in our nature is
+            the constant craving for ethical standards of working, empowering
+            and developing our staff and opening doors and opportunities that
+            would otherwise be unfathomable.
           </p>
         </div>
         <div className={classes.imgBox}>
