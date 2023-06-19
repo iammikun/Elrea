@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <div className={classes.heroWrapper}>
       <div className={classes.heroText}>
-        <h2>We are Creators..</h2>
+        {/* <h2>We are Creators..</h2> */}
         <h1>
-          We are a strategic arts marketing consultancy.We can build strategy
-          that would make a big difference.
+          We leverage technology to bring ideas into reality by creating
+          scalable solutions that positively affect our world.
         </h1>
       </div>
       <div className={classes.heroImg}>.</div>
