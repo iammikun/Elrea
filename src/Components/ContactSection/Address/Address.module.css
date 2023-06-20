@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper h4 {
+  font-size: calc(1.275rem + 0.1vw);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  color: orangered;
+}
+
+.wrapper p {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 600; */
+  font-size: 1.2rem;
+  width: 30%;
+  line-height: 2;
+}
+
+.wrapper > div {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .wrapper p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .wrapper p {
+    width: 60%;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper p {
+    width: 77%;
+  }
+}

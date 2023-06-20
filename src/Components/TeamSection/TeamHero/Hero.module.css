@@ -2,8 +2,8 @@
   width: 100%;
   padding-top: 6.86rem !important;
   padding-bottom: 4rem;
-  background-color: #f4e9da;
-  background: linear-gradient(180deg, #f4e9da 75%, #fff 75%);
+  /* background: linear-gradient(180deg, #f4e9da 75%, #fff 75%); */
+  background-color: #fff;
 }
 
 .contentContainer {

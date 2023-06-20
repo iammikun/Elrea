@@ -1,9 +1,10 @@
 .container {
   width: 100%;
-  background-color: #f4e9da;
+  background-color: #fff;
   background-size: cover;
   margin-bottom: 3rem;
   padding-bottom: 7.5rem;
+  padding-top: 3rem;
 }
 
 .partContent,

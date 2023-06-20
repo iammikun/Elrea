@@ -1,11 +1,13 @@
 import React from "react";
 import classes from "./TeamImg.module.css";
-import firstImg from "../../../Asset/Images/firstImg.jpg";
-import secondImg from "../../../Asset/Images/secondImg.jpg";
-import thirdImg from "../../../Asset/Images/thirdImg.jpg";
-import fourthImg from "../../../Asset/Images/fourthImg.jpg";
+import timi from "../../../Asset/Images/timi.jpg";
+import moji from "../../../Asset/Images/moji.png";
+import benji from "../../../Asset/Images/benji.jpg";
+import baba from "../../../Asset/Images/baba.jpg";
+import tunde from "../../../Asset/Images/tunde.jpg";
 import fifthImg from "../../../Asset/Images/fifthImg.jpg";
-import sixthImg from "../../../Asset/Images/sixthImg.jpg";
+import edi from "../../../Asset/Images/edi.jpg";
+import fati from "../../../Asset/Images/fati.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Team = () => {
@@ -13,9 +15,27 @@ const Team = () => {
     <div className={classes.container}>
       <div className={classes.content}>
         <div className={classes.flexOne}>
-          <div>
-            <img src={firstImg} alt="" />
-            <div className={classes.imgWrapper}>
+          <div className={classes.firstWrap}>
+            <img src={moji} alt="" className={classes.firstImg} />
+            <div className={classes.imgWrapperOne}>
+              <h5>Mojisola Olateru-Olagbegi</h5>
+              <span>President / Co-founder</span>
+              <p className={classes.first}>
+                Mojisola is an Information Technology and Project Management
+                professional with extensive experience in the ICT industry,
+                having worked in various sectors in Nigeria, the United States
+                and Canada.
+              </p>
+              <div className={classes.socials}>
+                <a href="https://www.linkedin.com/in/moji-olateru-olagbeg-olagbegi-8a99a2126/">
+                  <FaLinkedinIn className={classes.media} />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className={classes.firstWrap}>
+            <img src={timi} alt="" className={classes.firstImg} />
+            <div className={classes.imgWrapperOne}>
               <h5>Ayeni Timilehin Franklin</h5>
               <span>President / Co-founder</span>
               <p className={classes.first}>
@@ -23,14 +43,14 @@ const Team = () => {
                 tech and media content creation.
               </p>
               <div className={classes.socials}>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/ayeni-timilehin-franklin/">
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
             </div>
           </div>
           <div>
-            <img src={secondImg} alt="" className={classes.secondImg} />
+            <img src={benji} alt="" className={classes.secondImg} />
             <div className={classes.imgWrapper}>
               <h5>Benjamin Eliye</h5>
               <span>Vice President / Co-founder /CFO</span>
@@ -40,24 +60,7 @@ const Team = () => {
                 an experienced financial analyst.
               </p>
               <div className={classes.socials}>
-                <a href="/">
-                  <FaLinkedinIn className={classes.media} />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img src={thirdImg} alt="" />
-            <div className={classes.imgWrapper}>
-              <h5>Olaniyan Babayemi Olawole</h5>
-              <span>Chief Legal Officer</span>
-              <p>
-                Olaniyan is an experienced legal practitioner with garnered
-                experiences spanning across the public and private
-                sectors respectively.
-              </p>
-              <div className={classes.socials}>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/benjamin-eliye/">
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -66,8 +69,27 @@ const Team = () => {
         </div>
         <div className={classes.flexOne}>
           <div>
-            <img src={fourthImg} alt="" />
-            <div className={classes.imgWrapper}>
+            <img src={edi} alt="" />
+            <div className={classes.imgWrapperSix}>
+              <h5>Edifofon Akpan:</h5>
+              <span>Head, System and Technology Development.</span>
+              <p>
+                Kalu is the head of IT in Elrae Technologies Ltd. He has worked
+                as technology fellow and software engineer for Institute of
+                Journalism, Washington DC where he developed and built system
+                for investigative journalism.
+              </p>
+              <div className={classes.socials}>
+                <a href="https://www.linkedin.com/in/edifofon/">
+                  <FaLinkedinIn className={classes.media} />
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*  */}
+          <div>
+            <img src={tunde} alt="" />
+            <div className={classes.imgWrapperThree}>
               <h5>Tunde Kelani</h5>
               <span>Head, Business Development /Brand Management</span>
               <p>
@@ -77,7 +99,7 @@ const Team = () => {
                 like Federal Government Ministries and Agencies.
               </p>
               <div className={classes.socials}>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/tundekelani1/">
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -85,7 +107,7 @@ const Team = () => {
           </div>
           <div>
             <img src={fifthImg} alt="" />
-            <div className={classes.imgWrapper}>
+            <div className={classes.imgWrapperThree}>
               <h5>Femi Aje: </h5>
               <span>Head, Strategy and Innovation</span>
               <p>
@@ -101,29 +123,29 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div>
-            <img src={sixthImg} alt="" />
-            <div className={classes.imgWrapper}>
-              <h5>Edifofon Akpan:</h5>
-              <span>Head, System and Technology Development.</span>
+        </div>
+        <div className={classes.flexOne}>
+          <div className={classes.lastWrap}>
+            <img src={baba} alt="" className={classes.lastImg} />
+            <div className={classes.imgWrapperLast}>
+              <h5>Olaniyan Babayemi Olawole</h5>
+              <span>Chief Legal Officer</span>
               <p>
-                Kalu is the head of IT in Elrae Technologies Ltd. He has worked
-                as technology fellow and software engineer for Institute of
-                Journalism, Washington DC where he developed and built system
-                for investigative journalism.
+                Olaniyan is an experienced legal practitioner with garnered
+                experiences spanning across the public and private
+                sectors respectively.
               </p>
               <div className={classes.socials}>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/babayemi-olaniyan-ll-m-abr-aciarb-uk-acis-aicmc-a7739112b/">
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
             </div>
           </div>
-        </div>
-        <div className={classes.flexOne}>
+          {/* */}
           <div className={classes.last}>
-            <img src={fourthImg} alt="" />
-            <div className={classes.imgWrapper}>
+            <img src={fati} alt="" />
+            <div className={classes.imgWrapperSeven}>
               <h5>Fatiregun Olubunmi: Technical Consultant</h5>
               <p>
                 Olubunmi is the Technical Consultant for Elrae Technologies Ltd.
@@ -135,48 +157,12 @@ const Team = () => {
                 Premium SMS and Voice.
               </p>
               <div className={classes.socials}>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/olubunmi-fatiregun-mba-cciso-ceh-cnd-ocp-oca-odce-itil-0765a768/">
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
             </div>
           </div>
-          {/* <div>
-            <img src={fifthImg} alt="" />
-            <div className={classes.imgWrapper}>
-              <h5>FEMI AJE: </h5>
-              <span>Head, Strategy and Innovation</span>
-              <p>
-                Prior to joining Trustfund Pensions Limited in 2010, Femi
-                commenced his working career with Energy Saving Trust in 2005
-                from where he as role of programme assistant in charge of
-                managing a budget of $13m annually.
-              </p>
-              <div className={classes.socials}>
-                <a href="/">
-                  <FaLinkedinIn className={classes.media} />
-                </a>
-              </div>
-            </div>
-          </div> */}
-          {/* <div>
-            <img src={sixthImg} alt="" />
-            <div className={classes.imgWrapper}>
-              <h5>EDIFOFON AKPAN:</h5>
-              <span>Head, System and Technology Development.</span>
-              <p>
-                Kalu is the head of IT in Elrae Technologies Ltd. He has worked
-                as technology fellow and software engineer for Institute of
-                Journalism, Washington DC where he developed and built system
-                for investigative journalism.
-              </p>
-              <div className={classes.socials}>
-                <a href="/">
-                  <FaLinkedinIn className={classes.media} />
-                </a>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 .wrapper {
-  background-color: #f4e9da;
+  background-color: #fff;
   background-size: cover;
   min-height: 100px;
 }
@@ -20,6 +20,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 1.8rem;
+  width: 10%;
+}
+
+.headerContainer img {
+  max-width: 100%;
 }
 
 .toggler {
@@ -43,6 +48,11 @@
 @media screen and (max-width: 990px) {
   .headerContainer {
     width: 70%;
+    align-items: center;
+  }
+
+  .headerContainer a {
+    width: 20%;
   }
 
   .toggler {
@@ -65,7 +75,7 @@
     width: 70%;
     margin: 0 auto;
     margin-top: 1.5rem;
-    background-color: #fff;
+    background-color: #f4e9da;
     padding-bottom: 1.5rem;
     transition: height 0.35s ease;
   }
@@ -129,5 +139,11 @@
 
   .activeMobileNav {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .headerContainer a {
+    width: 28%;
   }
 }

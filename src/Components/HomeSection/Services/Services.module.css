@@ -82,18 +82,8 @@
   font-size: calc(1.375rem + 1.5vw);
 }
 
-.serviceFlexSecond .designIcon {
-  color: #ed5c4d;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: calc(1.375rem + 1.5vw);
-}
-
-.serviceFlexSecond .conIcon {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: calc(1.375rem + 1.5vw);
-  color: #212529;
+.serviceFlex .fold {
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -111,6 +101,8 @@
   .serviceFlexSecond {
     display: flex;
     flex-direction: column;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
   }
 
   .serviceText h3 {
@@ -119,11 +111,15 @@
 
   .serviceFlex p,
   .serviceFlexSecond p {
-    margin-bottom: 4rem;
+    margin-bottom: 1.8rem;
   }
 
   .serviceFlexSecond {
     margin-top: -4rem;
+  }
+
+  .serviceFlex .fold {
+    margin-top: 0rem;
   }
 }
 

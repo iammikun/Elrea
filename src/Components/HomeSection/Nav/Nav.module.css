@@ -31,13 +31,15 @@
   line-height: 1.8;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+  transition: 0.4s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .navUl button:hover {
   background-color: #ed5c4d;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
-    -webkit-box-shadow 0.15s ease-in-out;
+  /*  */
 }
 
 @media screen and (max-width: 1024px) {

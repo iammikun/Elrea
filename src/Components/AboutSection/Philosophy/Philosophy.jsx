@@ -8,7 +8,7 @@ const Philosophy = () => {
       <div className={classes.wrapper}>
         <div className={classes.content}>
           <h2>OUR PHILOSOPHY</h2>
-          <p>
+          <p className={classes.lead}>
             As a molecular unit, excellence, hard work and creativity are
             ingrained into our DNA's makeup. Deeply embedded in our nature is
             the constant craving for ethical standards of working, empowering

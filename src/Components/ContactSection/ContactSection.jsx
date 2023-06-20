@@ -1,13 +1,13 @@
 import React from "react";
 import Hero from "./Hero/Hero";
-import Form from "./FormContact/Form";
+import Address from "./Address/Address";
 
 const ContactSection = () => {
   return (
     <div>
       <div>
         <Hero />
-        <Form />
+        <Address />
       </div>
     </div>
   );

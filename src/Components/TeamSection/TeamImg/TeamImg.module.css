@@ -20,7 +20,45 @@
   max-width: 100%;
 }
 
-.imgWrapper {
+.firstWrap {
+  width: 90%;
+}
+
+.imgWrapperOne,
+.imgWrapperThree,
+.imgWrapperFour,
+.imgWrapperFive,
+.imgWrapperSix,
+.imgWrapperSeven {
+  padding-bottom: 6rem;
+  border: 1px solid #f4e9da !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  margin-top: -5px;
+}
+
+.imgWrapperSix {
+  padding-bottom: 7rem;
+}
+
+.imgWrapperFour {
+}
+
+.flexOne .firstImg {
+  width: 100%;
+}
+
+.lastWrap {
+  width: 30%;
+}
+
+.lastImg {
+  width: 100%;
+}
+
+.imgWrapper,
+.imgWrapperLast {
   border: 1px solid #f4e9da !important;
   padding-left: 25px;
   padding-right: 25px;
@@ -29,7 +67,18 @@
   margin-top: -5px;
 }
 
-.imgWrapper h5 {
+.imgWrapperLast {
+  padding-bottom: 14rem;
+}
+
+.imgWrapper h5,
+.imgWrapperOne h5,
+.imgWrapperThree h5,
+.imgWrapperFour h5,
+.imgWrapperFive h5,
+.imgWrapperSix h5,
+.imgWrapperSeven h5,
+.imgWrapperLast h5 {
   color: #212529;
   font-size: 1.25rem;
   margin-bottom: 15px;
@@ -39,7 +88,14 @@
   line-height: 1.4;
 }
 
-.imgWrapper span {
+.imgWrapper span,
+.imgWrapperOne span,
+.imgWrapperThree span,
+.imgWrapperFour span,
+.imgWrapperFive span,
+.imgWrapperSix span,
+.imgWrapperSeven span,
+.imgWrapperLast span {
   color: #6c757d;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -47,7 +103,14 @@
   line-height: 1.8;
 }
 
-.imgWrapper p {
+.imgWrapper p,
+.imgWrapperOne p,
+.imgWrapperThree p,
+.imgWrapperFour p,
+.imgWrapperFive p,
+.imgWrapperSix p,
+.imgWrapperSeven p,
+.imgWrapperLast p {
   margin-bottom: 1rem;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -57,7 +120,14 @@
   margin-top: 1.2rem;
 }
 
-.imgWrapper .socials {
+.imgWrapper .socials,
+.imgWrapperOne .socials,
+.imgWrapperThree .socials,
+.imgWrapperFour .socials,
+.imgWrapperFive .socials,
+.imgWrapperSix .socials,
+.imgWrapperSeven .socials,
+.imgWrapperLast .socials {
   display: flex;
   flex-direction: row;
   gap: 1.7rem;
@@ -69,7 +139,7 @@
 
 .socials a {
   text-decoration: none;
-  border: 1px solid #000;
+  border: 1px solid blueviolet;
   padding-top: 0.4rem;
   padding-bottom: 0.1rem;
   padding-left: 0.8rem;
@@ -77,6 +147,13 @@
   color: #000;
   font-weight: 500;
   line-height: 2;
+  transition: 0.4s ease-in-out;
+}
+
+.socials a:hover {
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  color: #fff;
 }
 
 .last {
@@ -103,8 +180,35 @@
     flex-direction: column;
   }
 
+  .flexOne img {
+    width: 100%;
+  }
+
   .last {
     width: 100%;
+  }
+
+  .lastWrap {
+    width: 100%;
+    padding-bottom: 0rem;
+  }
+
+  .lastWrap .lastImg {
+    width: 100%;
+  }
+
+  .firstWrap {
+    width: 100%;
+  }
+
+  .imgWrapperOne,
+  .imgWrapperThree,
+  .imgWrapperFour,
+  .imgWrapperFive,
+  .imgWrapperSix,
+  .imgWrapperSeven,
+  .imgWrapperLast {
+    padding-bottom: 4rem;
   }
 }
 

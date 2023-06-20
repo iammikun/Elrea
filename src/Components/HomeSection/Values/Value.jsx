@@ -11,27 +11,24 @@ const Value = () => {
         </div>
         <div className={classes.valueText}>
           <h2>Our Values</h2>
+          <h5>Our Mission</h5>
           <p>
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-            dolor sit amet. Lorem ipsum dolor sit, consetetur sadipscing elitr.
+            To constantly be on the lookout for problems and create scalable
+            solutions using technology and profound innovation.
           </p>
-          <h5>Collaborative</h5>
+          <h5>Our Vision</h5>
           <p>
-            Consetetur Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
-            Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam
-            Erat, Sed Diam Voluptua. At Vero Eos Accusamjusto Duo Et.
+            To build a diverse future through creative technology solutions that
+            will impact Africa and the world at large.
           </p>
-          <h5>Trusted</h5>
+
+          <h5>Our Philosphy</h5>
           <p>
-            Consetetur Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
-            Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam
-            Erat, Sed Diam Voluptua. At Vero Eos Accusamjusto Duo Et.
-          </p>
-          <h5>Focused</h5>
-          <p>
-            Consetetur Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
-            Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam
-            Erat, Sed Diam Voluptua. At Vero Eos Accusamjusto Duo Et.
+            As a molecular unit, excellence, hard work and creativity are
+            ingrained into our DNA's makeup. Deeply embedded in our nature is
+            the constant craving for ethical standards of working, empowering
+            and developing our staff and opening doors and opportunities that
+            would otherwise be unfathomable.
           </p>
         </div>
       </div>
