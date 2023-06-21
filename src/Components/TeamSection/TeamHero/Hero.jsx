@@ -8,7 +8,9 @@ const Hero = () => {
     <div className={classes.container}>
       <div className={classes.contentContainer}>
         <div className={classes.wrapper}>
-          <h1>We are team of different talented for one purpose.</h1>
+          <h1>
+            Different ideas. <br /> One purpose.
+          </h1>
           <img src={teamImgTwo} alt="" />
         </div>
         <div className={classes.teamImg}>
