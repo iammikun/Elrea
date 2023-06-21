@@ -1,7 +1,7 @@
 .footerContainer {
   width: 100%;
   background: #273253;
-  color: #f4e9da;
+  color: #fff;
   padding-top: 6.25rem;
   margin-top: 7rem;
   padding-bottom: 6rem;
@@ -31,6 +31,17 @@
   width: 100%;
 }
 
+.sectOne .trans {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.trans:hover {
+  opacity: 0.5;
+  /* color: black; */
+}
+
 .sectOne .socials {
   display: flex;
   flex-direction: row;
@@ -43,12 +54,12 @@
 
 .socials a {
   text-decoration: none;
-  border: 1px solid #f4e9da;
+  border: 1px solid #fff;
   padding-top: 0.4rem;
   padding-bottom: 0.1rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
-  color: #f4e9da;
+  color: #fff;
   font-weight: 500;
   line-height: 2;
 }
@@ -59,7 +70,7 @@
 }
 
 .sectOne li a {
-  color: #f4e9da;
+  color: #fff;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   padding: 0.3846153846rem 0;
@@ -84,6 +95,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.navUl li a:hover {
+  opacity: 0.5;
 }
 
 hr {

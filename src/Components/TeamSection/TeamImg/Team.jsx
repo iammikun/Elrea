@@ -27,7 +27,11 @@ const Team = () => {
                 and Canada.
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/moji-olateru-olagbeg-olagbegi-8a99a2126/">
+                <a
+                  href="https://www.linkedin.com/in/moji-olateru-olagbeg-olagbegi-8a99a2126/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -43,7 +47,11 @@ const Team = () => {
                 tech and media content creation.
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/ayeni-timilehin-franklin/">
+                <a
+                  href="https://www.linkedin.com/in/ayeni-timilehin-franklin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -60,7 +68,11 @@ const Team = () => {
                 an experienced financial analyst.
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/benjamin-eliye/">
+                <a
+                  href="https://www.linkedin.com/in/benjamin-eliye/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -80,7 +92,11 @@ const Team = () => {
                 for investigative journalism.
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/edifofon/">
+                <a
+                  href="https://www.linkedin.com/in/edifofon/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -99,7 +115,11 @@ const Team = () => {
                 like Federal Government Ministries and Agencies.
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/tundekelani1/">
+                <a
+                  href="https://www.linkedin.com/in/tundekelani1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -136,7 +156,11 @@ const Team = () => {
                 sectors respectively.
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/babayemi-olaniyan-ll-m-abr-aciarb-uk-acis-aicmc-a7739112b/">
+                <a
+                  href="https://www.linkedin.com/in/babayemi-olaniyan-ll-m-abr-aciarb-uk-acis-aicmc-a7739112b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -157,7 +181,11 @@ const Team = () => {
                 Premium SMS and Voice.
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/olubunmi-fatiregun-mba-cciso-ceh-cnd-ocp-oca-odce-itil-0765a768/">
+                <a
+                  href="https://www.linkedin.com/in/olubunmi-fatiregun-mba-cciso-ceh-cnd-ocp-oca-odce-itil-0765a768/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
