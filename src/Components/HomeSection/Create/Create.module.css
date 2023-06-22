@@ -7,14 +7,19 @@
   width: 70%;
   margin: 0 auto;
   background-color: #fff;
-  /* border: 2px solid #f0eded; */
-  box-shadow: 10px 10px 62px -28px rgba(0, 0, 0, 0.75);
   background-color: #fff;
   padding-top: 5rem;
   padding-bottom: 4.5rem;
   border-radius: 10px;
   padding-left: 2rem;
   padding-right: 2rem;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 32px -28px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper:hover {
+  box-shadow: 10px 10px 62px -28px rgba(0, 0, 0, 0.75);
 }
 
 .wrapper span {
@@ -34,7 +39,7 @@
 
 .wrapper p {
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.8;
   color: #212529;
