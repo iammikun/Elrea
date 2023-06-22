@@ -14,16 +14,23 @@
   line-height: 1.4;
   margin-bottom: 1.5rem;
   width: 100%;
-  color: orangered;
+  color: #cada3c;
 }
 
-.wrapper p {
+.wrapper p,
+.wrapper a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   /* font-weight: 600; */
   font-size: 1.2rem;
   width: 30%;
   line-height: 2;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.wrapper a:hover {
+  opacity: 0.5;
 }
 
 .wrapper > div {

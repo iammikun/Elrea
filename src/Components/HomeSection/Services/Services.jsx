@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Services.module.css";
-// import { FaBullhorn, FaDesktop, FaRing, FaCogs } from "react-icons/fa";
+import { FaBullhorn, FaDesktop, FaRing, FaCogs } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -10,7 +10,7 @@ const Services = () => {
         <h3>We provide useful and beautiful solutions.</h3>
         <div className={classes.serviceFlex}>
           <div>
-            {/* <FaBullhorn className={classes.marketingIcon} /> */}
+            <FaBullhorn className={classes.marketingIcon} />
             <h4>Gaming and Technology</h4>
             <p>
               We create dedicated state-of-the-art technology solutions and
@@ -20,7 +20,7 @@ const Services = () => {
             </p>
           </div>
           <div>
-            {/* <FaRing className={classes.brandIcon} /> */}
+            <FaRing className={classes.brandIcon} />
             <h4>GovTech</h4>
             <p>
               We design, develop and deploy several innovative solutions to
@@ -32,7 +32,7 @@ const Services = () => {
         </div>
         <div className={classes.serviceFlexSecond}>
           <div>
-            {/* <FaDesktop className={classes.webIcon} /> */}
+            <FaDesktop className={classes.webIcon} />
             <h4>Telecoms </h4>
             <p className={classes.fold}>
               We help telecommunication businesses use technology to improve how
@@ -42,7 +42,7 @@ const Services = () => {
             </p>
           </div>
           <div>
-            {/* <FaCogs className={classes.devIcon} /> */}
+            <FaCogs className={classes.devIcon} />
             <h4>Project Management </h4>
             <p className={classes.fold}>
               We help individuals, organisations and industries to deliver

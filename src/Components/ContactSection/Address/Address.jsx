@@ -9,7 +9,10 @@ const Address = () => {
         <h4>Nigeria</h4>
         <p>25/26 victoria ironsi crescent, 41 crescent, Gwarinpa. Abuja</p>
         <div>
-          <p> info@elraetechnologies.com</p>
+          <a href="mailto:info@elraetechnologies.com">
+            {" "}
+            info@elraetechnologies.com
+          </a>
           <p>+2348155288800</p>
         </div>
       </div>

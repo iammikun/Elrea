@@ -9,7 +9,7 @@
 }
 
 .serviceText h5 {
-  color: #ed5c4d;
+  color: #000;
   font-size: 1.25rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -33,6 +33,10 @@
   flex-direction: row;
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.serviceFlexSecond {
+  gap: 3rem;
 }
 
 .serviceFlex .marketingIcon,
@@ -68,7 +72,7 @@
   width: 90%;
 }
 
-.serviceFlex .webIcon {
+.serviceFlexSecond .webIcon {
   color: #ed5c4d;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -90,6 +94,10 @@
   .serviceText {
     width: 90%;
   }
+
+  .serviceFlexSecond {
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -103,6 +111,10 @@
     flex-direction: column;
     margin-bottom: 4rem;
     margin-top: 3rem;
+  }
+
+  .serviceFlexSecond {
+    gap: 0rem;
   }
 
   .serviceText h3 {

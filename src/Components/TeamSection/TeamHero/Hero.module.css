@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  padding-top: 6.86rem !important;
+  padding-top: 15rem;
   padding-bottom: 4rem;
   /* background: linear-gradient(180deg, #f4e9da 75%, #fff 75%); */
   background-color: #fff;
@@ -24,7 +24,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   line-height: 1.4;
-  color: #ed5c4d;
+  color: #000;
 }
 
 .wrapper p {
@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 990px) {
   .container {
-    padding-top: 5rem !important;
+    padding-top: 11rem;
   }
 
   .contentContainer {

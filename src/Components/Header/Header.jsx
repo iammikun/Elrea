@@ -32,12 +32,6 @@ const Header = () => {
             <hr className={classes.span} />
           </li>
           <li>
-            <Link to="/portfolio" onClick={closeMenu}>
-              Portfolio
-            </Link>
-            <hr className={classes.span} />
-          </li>
-          <li>
             <Link to="/team" onClick={closeMenu}>
               Team
             </Link>

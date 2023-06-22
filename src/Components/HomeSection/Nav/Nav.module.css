@@ -15,11 +15,15 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1rem;
-  /* letter-spacing: 1px; */
+  transition: 0.3s ease-in-out;
 }
 
-/* .navUl button {
-  background-color: #273253;
+.navUl li a:hover {
+  color: #cada3c;
+}
+
+.navUl button {
+  background-color: #16676a;
   border: none;
   padding: 0.8rem 2.2rem;
   display: flex;
@@ -31,15 +35,15 @@
   line-height: 1.8;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  transition: 0.4s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .navUl button:hover {
-  background-color: #ed5c4d;
-} */
+  background-color: #cada3c;
+}
 
 @media screen and (max-width: 1024px) {
   .navUl {

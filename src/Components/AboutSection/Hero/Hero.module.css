@@ -1,7 +1,7 @@
 .aboutContainer {
   width: 100%;
   background-color: #fff;
-  padding-top: 7.5rem !important;
+  padding-top: 15rem;
   padding-bottom: 0;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .aboutBlue {
-  background-color: #273253;
+  background-color: #16676a;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   padding-right: 3.5rem !important;
@@ -78,7 +78,7 @@
   line-height: 1.4;
   padding-top: 0.5rem;
   font-size: 1.25rem;
-  color: #fff;
+  color: #cada3c;
 }
 /* 
 .aboutBlue > * {
@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 990px) {
   .aboutContainer {
-    padding-top: 5rem !important;
+    padding-top: 11rem;
   }
 
   .wrapper {
