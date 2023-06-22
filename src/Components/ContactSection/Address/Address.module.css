@@ -9,7 +9,7 @@
 
 .wrapper h4 {
   font-size: calc(1.275rem + 0.1vw);
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
   line-height: 1.4;
   margin-bottom: 1.5rem;
@@ -20,7 +20,7 @@
 .wrapper p,
 .wrapper a {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   /* font-weight: 600; */
   font-size: 1.2rem;
   width: 30%;

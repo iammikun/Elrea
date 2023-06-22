@@ -24,7 +24,7 @@
 
 .sectOne h4 {
   font-size: calc(1.275rem + 0.1vw);
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
   line-height: 1.4;
   margin-bottom: 1.5rem;
@@ -72,7 +72,7 @@
 .sectOne li a {
   color: #fff;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 0.3846153846rem 0;
   font-weight: 500;
   line-height: 2;
@@ -92,9 +92,9 @@
 .navUl li a {
   color: #fff;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.087rem;
   transition: 0.3s ease-in-out;
 }
 

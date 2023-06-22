@@ -11,13 +11,13 @@
 .serviceText h5 {
   color: #000;
   font-size: 1.25rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
 }
 
 .serviceText h3 {
   font-size: calc(1.3rem + 0.6vw);
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   margin-top: 10px;
   margin-bottom: 0;
   font-weight: 600;
@@ -51,7 +51,7 @@
 .serviceFlexSecond h4 {
   margin-bottom: 1.5rem !important;
   font-size: calc(1.275rem + 0.3vw);
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
   line-height: 1.4;
   color: #212529;
@@ -63,12 +63,12 @@
 .serviceFlexSecond p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 0.2px;
   line-height: 1.8;
   color: #212529;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   width: 90%;
 }
 
