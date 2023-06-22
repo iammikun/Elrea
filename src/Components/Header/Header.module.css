@@ -154,4 +154,8 @@
   .headerContainer a {
     width: 28%;
   }
+
+  .headerContainer {
+    height: 10vh;
+  }
 }

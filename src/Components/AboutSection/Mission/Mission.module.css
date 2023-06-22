@@ -91,14 +91,14 @@
 
   .content {
     width: 100%;
-    background-color: #273253;
+    background-color: #16676a;
     padding: 50px 40px 50px 40px;
   }
 
   .wrapper .imgBox {
     width: 100%;
     padding: 0px;
-    background-image: linear-gradient(90deg, #fff 82%, #fff 54%);
+    background-image: linear-gradient(90deg, #16676a 0%, #fff 0%);
   }
 
   .borderLeft {
