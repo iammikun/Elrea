@@ -12,10 +12,12 @@ const Create = () => {
         <p>
           Elrae is a technologically driven and an idea creating firm. We
           leverage technology to bring ideas into reality by creating impactful
-          and scalable solutions that will positively affect our world. For us
-          at Elrae, we are young and extremely dynamic; shifting and adapting,
-          managing scenarios and their consequences by rising above all
-          challenges to create a product for the world irrespective of the
+          and scalable solutions that will positively affect our world.
+        </p>
+        <p>
+          For us at Elrae, we are young and extremely dynamic; shifting and
+          adapting, managing scenarios and their consequences by rising above
+          all challenges to create a product for the world irrespective of the
           presence of absence of mental boxes and limitations. It's this one
           thing that separates us from the rest.{" "}
         </p>
