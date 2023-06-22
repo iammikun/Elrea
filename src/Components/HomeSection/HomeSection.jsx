@@ -4,6 +4,7 @@ import Services from "./Services/Services";
 // import Work from "./Work/Work";
 import Value from "./Values/Value";
 import Quote from "./Quote/Quote";
+import Create from "./Create/Create";
 
 const HomeSection = () => {
   return (
@@ -13,6 +14,7 @@ const HomeSection = () => {
       {/* <Work /> */}
       <Value />
       <Quote />
+      <Create />
     </div>
   );
 };
