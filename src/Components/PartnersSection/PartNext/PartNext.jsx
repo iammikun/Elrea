@@ -8,7 +8,7 @@ import bayelsa from "../../../Asset/Images/bayelsa.png";
 import mtn from "../../../Asset/Images/mtn.jpg";
 import rev from "../../../Asset/Images/rev.jpg";
 import NITDA from "../../../Asset/Images/NITDA.webp";
-import lottery from "../../../Asset/Images/lottery.jpeg";
+import lottery from "../../../Asset/Images/lottery.png";
 
 const PartNext = () => {
   return (

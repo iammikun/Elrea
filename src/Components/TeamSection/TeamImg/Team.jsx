@@ -5,7 +5,7 @@ import moji from "../../../Asset/Images/moji.png";
 import benji from "../../../Asset/Images/benji.jpg";
 import baba from "../../../Asset/Images/baba.jpg";
 import tunde from "../../../Asset/Images/tunde.jpg";
-import fifthImg from "../../../Asset/Images/fifthImg.jpg";
+import kalu from "../../../Asset/Images/kalu.jpg";
 import edi from "../../../Asset/Images/edi.jpg";
 import fati from "../../../Asset/Images/fati.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -84,12 +84,13 @@ const Team = () => {
             <img src={edi} alt="" />
             <div className={classes.imgWrapperSix}>
               <h5>Edifofon Akpan:</h5>
-              <span>Head, System and Technology Development.</span>
+              <span>Head, Business and Administration</span>
               <p>
-                Kalu is the head of IT in Elrae Technologies Ltd. He has worked
-                as technology fellow and software engineer for Institute of
-                Journalism, Washington DC where he developed and built system
-                for investigative journalism.
+                Edifofon is a Pharmacist by training and a former researcher
+                with NIPRD Abuja, he is an extreme detailed oriented, organized
+                and efficient professional capable of multi-tasking and
+                discovering new ideas which can be put into
+                practice effectively.
               </p>
               <div className={classes.socials}>
                 <a
@@ -126,18 +127,18 @@ const Team = () => {
             </div>
           </div>
           <div>
-            <img src={fifthImg} alt="" />
+            <img src={kalu} alt="" />
             <div className={classes.imgWrapperThree}>
-              <h5>Femi Aje: </h5>
-              <span>Head, Strategy and Innovation</span>
+              <h5>KALU DIMGBA: </h5>
+              <span>Head, System and Technology Development.</span>
               <p>
-                Prior to joining Trustfund Pensions Limited in 2010, Femi
-                commenced his working career with Energy Saving Trust in 2005
-                from where he as role of programme assistant in charge of
-                managing a budget of $13m annually.
+                Kalu is the head of IT in Elrae Technologies Ltd. He has worked
+                as technology fellow and software engineer for Institute of
+                Journalism, Washington DC where he developed and built system
+                for investigative journalism.
               </p>
               <div className={classes.socials}>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/dkdimgba/">
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
