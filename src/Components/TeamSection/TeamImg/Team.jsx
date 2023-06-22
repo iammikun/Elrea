@@ -8,6 +8,7 @@ import tunde from "../../../Asset/Images/tunde.jpg";
 import kalu from "../../../Asset/Images/kalu.jpg";
 import edi from "../../../Asset/Images/edi.jpg";
 import fati from "../../../Asset/Images/fati.jpg";
+import fifthImg from "../../../Asset/Images/fifthImg.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Team = () => {
@@ -155,6 +156,28 @@ const Team = () => {
                 Olaniyan is an experienced legal practitioner with garnered
                 experiences spanning across the public and private
                 sectors respectively.
+              </p>
+              <div className={classes.socials}>
+                <a
+                  href="https://www.linkedin.com/in/babayemi-olaniyan-ll-m-abr-aciarb-uk-acis-aicmc-a7739112b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn className={classes.media} />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className={classes.lastWrap}>
+            <img src={fifthImg} alt="" className={classes.lastImg} />
+            <div className={classes.imgWrapperLast}>
+              <h5>FEMI AJE:</h5>
+              <span>Head, Strategy and Innovation</span>
+              <p>
+                Prior to joining Trustfund Pensions Limited in 2010, Femi
+                commenced his working career with Energy Saving Trust in 2005
+                from where he as role of programme assistant in charge of
+                managing a budget of $13m annually.
               </p>
               <div className={classes.socials}>
                 <a
