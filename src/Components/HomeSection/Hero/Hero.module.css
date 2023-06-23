@@ -11,22 +11,12 @@
   padding-bottom: 7rem;
 }
 
-.heroText h2 {
-  color: #ed5c4d;
-  font-style: italic;
-  margin-bottom: 0.5rem !important;
-  font-size: calc(1.325rem + 0.9vw);
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  line-height: 1.4;
-}
-
 .heroText h1 {
   font-weight: 700;
   font-family: "Lato", sans-serif;
   font-size: 3rem;
   line-height: 1.2;
-  width: 75%;
+  width: 83%;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.4;

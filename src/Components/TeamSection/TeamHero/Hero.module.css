@@ -27,12 +27,14 @@
   color: #000;
 }
 
-.wrapper p {
-  font-size: 20px;
-  line-height: 32px;
+.wrapper span {
+  font-size: calc(1.29rem + 1.33vw);
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
-  color: #212529;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #cada3c;
 }
 
 .wrapper img {
@@ -103,5 +105,11 @@
 @media screen and (max-width: 770px) {
   .contentContainer {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper h1 {
+    width: 61%;
   }
 }

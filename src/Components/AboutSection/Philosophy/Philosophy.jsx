@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Philosophy.module.css";
-import mision from "../../../Asset/Images/mision.jpg";
 
 const Philosophy = () => {
   return (
@@ -17,9 +16,7 @@ const Philosophy = () => {
           </p>
         </div>
         <div className={classes.imgBox}>
-          <div className={classes.borderLeft}>
-            <img src={mision} alt="" />
-          </div>
+          <div className={classes.borderLeft}></div>
         </div>
       </div>
     </div>

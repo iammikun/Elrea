@@ -61,18 +61,6 @@
   z-index: 1;
 }
 
-.borderLeft::after {
-  content: "";
-  border: solid 1px #f4e9da;
-  width: calc(100% - 20px);
-  height: 100%;
-  position: absolute;
-  display: block;
-  left: 0;
-  bottom: -20px;
-  z-index: 0;
-}
-
 @media screen and (max-width: 1024px) {
   .wrapper {
     width: 90%;

@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Vision.module.css";
-import vision from "../../../Asset/Images/vision.jpg";
 
 const Vision = () => {
   return (
@@ -12,17 +11,9 @@ const Vision = () => {
             To build a diverse future through creative technology solutions that
             will impact Africa and the world at large.
           </p>
-          {/* <p>
-            Nam pulvinar sapien pulvinar, laoreet sem eu, blandit magna. Duis
-            finibus diam, eget efficitur massa vehicula quis. Nullam vestibulum
-            ante ipsum primis in faucibus orci luctus et massa vehicula quis
-            ultrices posuere cubilia curae.
-          </p> */}
         </div>
         <div className={classes.imgBox}>
-          <div className={classes.borderLeft}>
-            <img src={vision} alt="" />
-          </div>
+          <div className={classes.borderLeft}></div>
         </div>
       </div>
     </div>
