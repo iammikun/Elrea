@@ -23,15 +23,6 @@
   margin-bottom: 2rem;
 }
 
-.content h5 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  font-style: normal;
-  color: #cada3c;
-  font-family: "Lato", sans-serif;
-  line-height: 1.8;
-}
-
 .content .lead {
   color: #fff;
   font-size: 1.33rem;
@@ -40,6 +31,15 @@
   line-height: 1.8;
   margin-bottom: 1.6rem;
   font-style: italic;
+}
+
+.content h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #cada3c;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8;
 }
 
 .wrapper .imgBox {
