@@ -5,6 +5,7 @@ import Services from "./Services/Services";
 import Value from "./Values/Value";
 import Quote from "./Quote/Quote";
 import Create from "./Create/Create";
+import Blog from "./Blog/Blog";
 
 const HomeSection = () => {
   return (
@@ -15,6 +16,7 @@ const HomeSection = () => {
       <Value />
       <Quote />
       <Create />
+      <Blog />
     </div>
   );
 };

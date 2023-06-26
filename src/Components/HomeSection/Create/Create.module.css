@@ -14,11 +14,6 @@
   padding-left: 2rem;
   padding-right: 2rem;
   transition: 1s ease-in-out;
-  cursor: pointer;
-  box-shadow: 0px 0px 32px -28px rgba(0, 0, 0, 0.75);
-}
-
-.wrapper:hover {
   box-shadow: 10px 10px 62px -28px rgba(0, 0, 0, 0.75);
 }
 
