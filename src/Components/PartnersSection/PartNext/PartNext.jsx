@@ -9,6 +9,8 @@ import mtn from "../../../Asset/Images/mtn.jpg";
 import rev from "../../../Asset/Images/rev.jpg";
 import NITDA from "../../../Asset/Images/NITDA.webp";
 import lottery from "../../../Asset/Images/lottery.png";
+import moobitek from "../../../Asset/Images/moobitek.png";
+import moobifun from "../../../Asset/Images/moobifun.jpeg";
 
 const PartNext = () => {
   return (
@@ -51,6 +53,19 @@ const PartNext = () => {
           {" "}
           <img src={lottery} alt="" />
         </div>
+      </div>
+      <div className={classes.partContentThree}>
+        <div className={classes.invest}>
+          <img src={moobitek} alt="" />
+        </div>
+        <div className={classes.bank}>
+          {" "}
+          <img src={moobifun} alt="" />
+        </div>
+        {/* <div className={classes.bank}>
+          {" "}
+          <img src={lottery} alt="" />
+        </div> */}
       </div>
     </div>
   );

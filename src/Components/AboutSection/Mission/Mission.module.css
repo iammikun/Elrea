@@ -114,3 +114,9 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .content .lead {
+    font-size: 1rem;
+  }
+}

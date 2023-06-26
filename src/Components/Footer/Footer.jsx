@@ -8,7 +8,7 @@ const Footer = () => {
     <div className={classes.footerContainer}>
       <div className={classes.footerContent}>
         <div className={classes.sectOne}>
-          <h4>25/26 victoria ironsi crescent, 41 crescent, Gwarinpa. Abuja</h4>
+          <h4>25/26 Victoria ironsi Crescent, 41 Crescent, Gwarinpa. Abuja</h4>
           <h4>
             +2348155288800{" "}
             <a

@@ -10,9 +10,8 @@ const Quote = () => {
         <div className={classes.content}>
           <FaQuoteLeft className={classes.quote} />
           <p className={classes.lead}>
-            You owe it to yourself to be patient and to have grit. These two
-            qualities will help you achieve your goals and live a fulfilling
-            life.
+            Time is one of the most powerful forces in the world. Practice
+            patience, but remain active and engaged.
           </p>
           <h5>- Ayeni Timilehin Franklin - CEO, Elrae Technologies</h5>
         </div>

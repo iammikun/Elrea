@@ -69,4 +69,8 @@
   .wrapper h1 {
     width: 100%;
   }
+
+  .wrapper p {
+    font-size: 1rem;
+  }
 }

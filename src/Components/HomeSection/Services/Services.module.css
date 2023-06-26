@@ -155,4 +155,9 @@
   .serviceFlexSecond {
     margin-bottom: 3rem;
   }
+
+  .serviceFlex p,
+  .serviceFlexSecond p {
+    font-size: 1rem;
+  }
 }

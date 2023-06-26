@@ -20,7 +20,7 @@ const Team = () => {
             <img src={moji} alt="" className={classes.firstImg} />
             <div className={classes.imgWrapperOne}>
               <h5>Mojisola Olateru-Olagbegi</h5>
-              <span>President / Co-founder</span>
+              <span>Chairman</span>
               <p className={classes.first}>
                 Mojisola is an Information Technology and Project Management
                 professional with extensive experience in the ICT industry,
@@ -42,7 +42,7 @@ const Team = () => {
             <img src={timi} alt="" className={classes.firstImg} />
             <div className={classes.imgWrapperOne}>
               <h5>Ayeni Timilehin Franklin</h5>
-              <span>President / Co-founder</span>
+              <span>MD/CEO</span>
               <p className={classes.first}>
                 Timilehin is a dynamic entrepreneur with several projects across
                 tech and media content creation.
@@ -62,7 +62,7 @@ const Team = () => {
             <img src={benji} alt="" className={classes.secondImg} />
             <div className={classes.imgWrapper}>
               <h5>Benjamin Eliye</h5>
-              <span>Vice President / Co-founder /CFO</span>
+              <span>Director/CFO</span>
               <p className={classes.second}>
                 Ben as he is fondly called has an exceptional skill for detail
                 and very finicky about organization and problem solving. Ben is
@@ -85,7 +85,7 @@ const Team = () => {
             <img src={edi} alt="" />
             <div className={classes.imgWrapperSix}>
               <h5>Edifofon Akpan:</h5>
-              <span>Head, Business and Administration</span>
+              <span>Head, Research and Development</span>
               <p>
                 Edifofon is a Pharmacist by training and a former researcher
                 with NIPRD Abuja, he is an extreme detailed oriented, organized
