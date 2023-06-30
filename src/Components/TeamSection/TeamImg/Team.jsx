@@ -10,6 +10,7 @@ import edi from "../../../Asset/Images/edi.jpg";
 import fati from "../../../Asset/Images/fati.jpg";
 import fifthImg from "../../../Asset/Images/fifthImg.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
@@ -25,7 +26,8 @@ const Team = () => {
                 Mojisola is an Information Technology and Project Management
                 professional with extensive experience in the ICT industry,
                 having worked in various sectors in Nigeria, the United States
-                and Canada.
+                and Canada. <br />{" "}
+                <Link to="/moji_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -45,7 +47,8 @@ const Team = () => {
               <span>MD/CEO</span>
               <p className={classes.first}>
                 Timilehin is a dynamic entrepreneur with several projects across
-                tech and media content creation.
+                tech and media content creation. <br />
+                <Link to="/timi_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -66,7 +69,8 @@ const Team = () => {
               <p className={classes.second}>
                 Ben as he is fondly called has an exceptional skill for detail
                 and very finicky about organization and problem solving. Ben is
-                an experienced financial analyst.
+                an experienced financial analyst. <br />
+                <Link to="/benjamin_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -91,7 +95,8 @@ const Team = () => {
                 with NIPRD Abuja, he is an extreme detailed oriented, organized
                 and efficient professional capable of multi-tasking and
                 discovering new ideas which can be put into
-                practice effectively.
+                practice effectively. <br />{" "}
+                <Link to="/akpan_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -114,7 +119,8 @@ const Team = () => {
                 Tunde is an adroit business strategist and a team lead
                 consulting for multiple top private organizations like Dangote
                 Group, Hp Nigeria, Nigeria Breweries and public organizations
-                like Federal Government Ministries and Agencies.
+                like Federal Government Ministries and Agencies. <br />
+                <Link to="/tunde_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -136,7 +142,8 @@ const Team = () => {
                 Kalu is the head of IT in Elrae Technologies Ltd. He has worked
                 as technology fellow and software engineer for Institute of
                 Journalism, Washington DC where he developed and built system
-                for investigative journalism.
+                for investigative journalism. <br />{" "}
+                <Link to="/kalu_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a href="https://www.linkedin.com/in/dkdimgba/">
@@ -156,6 +163,7 @@ const Team = () => {
                 Olaniyan is an experienced legal practitioner with garnered
                 experiences spanning across the public and private
                 sectors respectively.
+                <Link to="/ola_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -177,7 +185,8 @@ const Team = () => {
                 Prior to joining Trustfund Pensions Limited in 2010, Femi
                 commenced his working career with Energy Saving Trust in 2005
                 from where he as role of programme assistant in charge of
-                managing a budget of $13m annually.
+                managing a budget of $13m annually. <br />
+                <Link to="/femi_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -203,7 +212,8 @@ const Team = () => {
                 Africa, Ghana, Uganda and Cameroon. He has integrated so many
                 services with MT, GLO, AIRTEL and other Telco Operators. He
                 specializes in service deployments like USSD,
-                Premium SMS and Voice.
+                Premium SMS and Voice. <br />{" "}
+                <Link to="/olubunmi_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
