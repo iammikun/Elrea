@@ -210,13 +210,10 @@ const Team = () => {
               <h5>Fatiregun Olubunmi: </h5>
               <span>Technical Consultant</span>
               <p>
-                Olubunmi is the Technical Consultant for Elrae Technologies Ltd.
-                He has worked on various projects in the telecommunications
+                Olubunmi is the Technical Consultant for Elrae Technologies. He
+                has worked on various projects in the telecommunications
                 industry in Nigeria and other African Countries like South
-                Africa, Ghana, Uganda and Cameroon. He has integrated so many
-                services with MT, GLO, AIRTEL and other Telco Operators. He
-                specializes in service deployments like USSD,
-                Premium SMS and Voice. <br />{" "}
+                Africa, Ghana, Uganda and Cameroon. <br />{" "}
                 <Link to="/olubunmi_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
