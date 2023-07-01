@@ -115,6 +115,7 @@
   line-height: 1.8;
   color: #212529;
   margin-top: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .imgWrapper a,
@@ -128,6 +129,9 @@
   color: #000;
   text-decoration: none;
   font-size: 0.894rem;
+  border: 1px solid #cada3c;
+  padding: 10px 20px 10px 20px;
+  line-height: 4;
 }
 
 .imgWrapper a:hover,
@@ -138,7 +142,7 @@
 .imgWrapperSix a:hover,
 .imgWrapperSeven a:hover,
 .imgWrapperLast a:hover {
-  color: red;
+  color: #000;
   text-decoration: underline;
 }
 

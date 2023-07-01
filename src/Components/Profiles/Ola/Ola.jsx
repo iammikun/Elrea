@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Ola.module.css";
+import baba from "../../../Asset/Images/baba.jpg";
 
 const Ola = () => {
   return (
     <div className={classes.ola_Container}>
       <div className={classes.ola_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={baba} alt="" />
         <h1>Olaniyan Babayemi Olawole</h1>
+        <h3>Chief Legal Officer</h3>
         <p>
           Olaniyan Babayemi Olawole is the Chief Legal Officer and Company
           Secretary of Elrae Technologies Limited. He is an experienced legal

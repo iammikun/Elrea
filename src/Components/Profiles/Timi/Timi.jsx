@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Timi.module.css";
+import timi from "../../../Asset/Images/timi.jpg";
 
 const Timi = () => {
   return (
     <div className={classes.timi_Container}>
       <div className={classes.timi_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={timi} alt="" />
+
         <h1>Ayeni Timilehin Franklin</h1>
+        <h3>MD/CEO</h3>
         <p>
           Timlehin is the President and Co-Founder of Elrae Technologies
           Limited, a Technological and enterprise solution outfit based in

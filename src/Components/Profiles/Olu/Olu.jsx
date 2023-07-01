@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Olu.module.css";
+import fati from "../../../Asset/Images/fati.jpg";
 
 const Olu = () => {
   return (
     <div className={classes.olu_Container}>
       <div className={classes.olu_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={fati} alt="" />
         <h1>Fatiregun Olubunmi</h1>
+        <h3>Technical Consultant</h3>
         <p>
           Fatiregun Olubunmi is the Technical Consultant for Elrae Technologies
           Ltd. He has worked on various projects in the telecommunications

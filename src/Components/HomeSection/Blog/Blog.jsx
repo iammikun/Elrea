@@ -8,13 +8,18 @@ const Blog = () => {
   return (
     <div className={classes.blog_Container}>
       <div className={classes.blog_Wrapper}>
-        <h2>Elrea in the News</h2>
+        <h2>Elrae in the News</h2>
       </div>
       <div className={classes.news_Container}>
-        <div className={classes.news_Page}>
+        <a
+          href="https://guardian.ng/business-services/business/nlrc-elrae-technologies-to-establish-nigerian-national-game/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.news_Page}
+        >
           <img src={newsOne} alt="" />
           <div className={classes.news_Board}>
-            <span>Business News</span>
+            <span>Guardian</span>
             <a
               href="https://guardian.ng/business-services/business/nlrc-elrae-technologies-to-establish-nigerian-national-game/"
               target="_blank"
@@ -23,11 +28,16 @@ const Blog = () => {
               NLRC, Elrae Technologies to establish Nigerian National Game
             </a>
           </div>
-        </div>
-        <div className={classes.news_Page}>
+        </a>
+        <a
+          href="https://businessday.ng/news/article/national-lottery-game-will-generate-employment-for-youths-create-wealth-fg/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.news_Page}
+        >
           <img src={newsTwo} alt="" />
           <div className={classes.news_Board}>
-            <span>Lottery Game</span>
+            <span>Business Day</span>
             <a
               href="https://businessday.ng/news/article/national-lottery-game-will-generate-employment-for-youths-create-wealth-fg/"
               target="_blank"
@@ -37,11 +47,16 @@ const Blog = () => {
               wealth – FG{" "}
             </a>
           </div>
-        </div>
-        <div className={classes.news_Page}>
+        </a>
+        <a
+          href="https://businessday.ng/news/article/national-lottery-game-will-generate-employment-for-youths-create-wealth-fg/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.news_Page}
+        >
           <img src={newsThree} alt="" />
           <div className={classes.news_Board}>
-            <span>Gbajabiamila visit to Ghana</span>
+            <span>Independent</span>
             <a
               href="https://independent.ng/gbajabiamila-elrae-technologies-visit-ghana-over-plans-to-establish-nigerian-national-game/"
               target="_blank"
@@ -51,7 +66,7 @@ const Blog = () => {
               Establish Nigerian National Game{" "}
             </a>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

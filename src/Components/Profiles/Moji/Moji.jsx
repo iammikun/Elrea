@@ -1,13 +1,16 @@
 import React from "react";
 import classes from "./Moji.module.css";
 import { Link } from "react-router-dom";
+import moji from "../../../Asset/Images/moji.png";
 
 const moji_profile = () => {
   return (
     <div className={classes.moji_Container}>
       <div className={classes.moji_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={moji} alt="" />
         <h1>Mojisola Olateru-Olagbegi</h1>
+        <h3>Chairman</h3>
         <p>
           Mojisola Olateru-Olagbegi is an Information Technology and Project
           Management professional with extensive experience in the ICT industry,

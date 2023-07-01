@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Hero.module.css";
-import teamImg from "../../../Asset/Images/teamImg.jpg";
+// import teamImg from "../../../Asset/Images/teamImg.jpg";
 // import teamImgTwo from "../../../Asset/Images/teamImgTwo.jpg";
 
 const Hero = () => {
@@ -14,7 +14,7 @@ const Hero = () => {
           {/* <img src={teamImgTwo} alt="" /> */}
         </div>
         <div className={classes.teamImg}>
-          <img src={teamImg} alt="" />
+          {/* <img src={teamImg} alt="" /> */}
         </div>
       </div>
     </div>

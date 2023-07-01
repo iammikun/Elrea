@@ -1,13 +1,16 @@
 import React from "react";
 import classes from "./Femi.module.css";
 import { Link } from "react-router-dom";
+import fifthImg from "../../../Asset/Images/fifthImg.jpg";
 
 const Femi = () => {
   return (
     <div className={classes.femi_Container}>
       <div className={classes.femi_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={fifthImg} alt="" />
         <h1>Femi Aje</h1>
+        <h3>Head, System and Technology Development.</h3>
         <p>
           Femi Aje obtained a B. A (Hons) degree in Business Studies -
           Specializing in Corporate Finance in 2003 from London Guildhall

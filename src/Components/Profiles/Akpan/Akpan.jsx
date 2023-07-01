@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Akpan.module.css";
+import edi from "../../../Asset/Images/edi.jpg";
 
 const Akpan = () => {
   return (
     <div className={classes.akpan_Container}>
       <div className={classes.akpan_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={edi} alt="" />
         <h1>Edifofon Akpan</h1>
+        <h3>Head, Research and Development</h3>
         <p>
           Edifofon is an experienced administrator in various industries and
           sectors. A Pharmacist by training and a former researcher with NIPRD

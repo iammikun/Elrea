@@ -1,13 +1,16 @@
 import React from "react";
 import classes from "./Kalu.module.css";
 import { Link } from "react-router-dom";
+import kalu from "../../../Asset/Images/kalu.jpg";
 
 const Kalu = () => {
   return (
     <div className={classes.kalu_Container}>
       <div className={classes.kalu_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={kalu} alt="" />
         <h1>Dimgba Kalu</h1>
+        <h3>Head, System and Technology Development.</h3>
         <p>
           Dimgba Kalu is the head of IT at Elrae Technologies Ltd. He has worked
           as a technology fellow and software engineer for the Institute of

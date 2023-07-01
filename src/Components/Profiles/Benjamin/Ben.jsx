@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "./Ben.module.css";
+import benji from "../../../Asset/Images/benji.jpg";
 
 const Ben = () => {
   return (
     <div className={classes.ben_Container}>
       <div className={classes.ben_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={benji} alt="" />
         <h1>Benjamin Eliye</h1>
+        <h3>Director/CFO</h3>
         <p>
           Benjamin Eliye co-founded Elrae Technologies Limited with Timilehin
           Ayeni. Ben, as he is fondly called, has exceptional skill for detail

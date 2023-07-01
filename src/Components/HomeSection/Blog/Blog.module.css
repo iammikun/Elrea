@@ -26,6 +26,7 @@
 
 .news_Page {
   width: 40%;
+  text-decoration: none;
 }
 
 .news_Page img {
@@ -59,7 +60,7 @@
 }
 
 .news_Board a:hover {
-  color: red;
+  color: #cada3c;
 }
 
 .news_Board p {
