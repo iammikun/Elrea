@@ -6,7 +6,7 @@ const Mission = () => {
     <div className={classes.container}>
       <div className={classes.wrapper}>
         <div className={classes.content}>
-          <h2>MISSION</h2>
+          <h2>OUR MISSION</h2>
           <p className={classes.lead}>
             To constantly be on the lookout for problems and create scalable
             solutions using technology and profound innovation.

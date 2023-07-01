@@ -1,40 +1,58 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import tunde from "../../../Asset/Images/tunde.jpg";
 import classes from "./Tunde.module.css";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Tunde = () => {
   return (
     <div className={classes.tunde_Container}>
       <div className={classes.tunde_Wrapper}>
         <Link to="/team">Back</Link>
+        <img src={tunde} alt="" />
         <h1>Tunde Kelani</h1>
+        <h3>Head, Business Development /Brand Management</h3>
         <p>
-          Tunde Kelani is an adroit business strategist and a team lead
-          consulting for multiple top private organizations like Dangote Group,
-          Hp Nigeria, Nigeria Breweries and public organizations like Federal
-          Government Ministries and Agencies. One of his popular productions is
-          the timely and effective implementation of project activities for the
-          Niger Delta Amnesty training programme in Ogun State.
+          Tunde Kelani emerges as an astute business strategist and a prominent
+          team leader who has lent his expertise to prestigious private
+          organisations such as Dangote Group, HP Nigeria, Nigeria Breweries,
+          and various Federal Government Ministries and Agencies. Among his
+          notable achievements is the successful and timely execution of project
+          activities for the Niger Delta Amnesty training program in Ogun State,
+          showcasing his exceptional project management capabilities.
         </p>
         <p>
-          One of Tunde's solid beliefs is that deep-seated within every person
-          is a valuable ability for which less credence is given them."
+          Central to Tunde's philosophy is a firm conviction that every
+          individual possesses a profound and often overlooked reservoir of
+          untapped potential. His approach seamlessly intertwines the sublime
+          with the systematic, striking a delicate balance between fostering
+          creativity and embracing change while emphasising solid foundations
+          and effective implementation.
         </p>
         <p>
-          His method combines the sublime with the systematic, allowing ample
-          chance at creativity and change, with a strong focus on foundation and
-          implementation. He is currently the Head of Business Development/Brand
-          Management for Elrae, where he is responsible for assisting the
-          President with developing, communicating, executing, and sustaining
-          strategic initiatives.{" "}
+          Currently serving as the Head of Business Development/Brand Management
+          at Elrae, Tunde plays a pivotal role in assisting the President in the
+          formulation, communication, execution, and sustainability of strategic
+          initiatives. Drawing from his wealth of experience, he skillfully
+          develops comprehensive business development plans and devises and
+          implements robust processes to support organisational growth.
         </p>
         <p>
-          His experience has allowed him to productively develop business
-          development plans and design and implement processes to support
-          business growth. Tunde, who has an academic background in Analytical
-          reasoning, scientific investigation and Practical research, is also a
-          graduate of Daystar Leadership Academy.
+          Tunde's educational background encompasses analytical reasoning,
+          scientific investigation, and practical research, bolstering his
+          ability to approach challenges with a methodical and insightful
+          mindset. Furthermore, he is a distinguished graduate of the esteemed
+          Daystar Leadership Academy, further attesting to his commitment to
+          personal and professional development.
         </p>
+        <a
+          href="https://www.linkedin.com/in/tundekelani1/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classes.tunde_Link}
+        >
+          <FaLinkedinIn className={classes.media} />
+        </a>
       </div>
     </div>
   );

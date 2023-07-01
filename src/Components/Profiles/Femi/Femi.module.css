@@ -28,17 +28,24 @@
   line-height: 1.4;
   margin-top: 1rem;
   font-style: italic;
+  color: #cada3c;
 }
 
 .femi_Wrapper a {
-  color: red;
+  color: #cada3c;
   font-family: "Lato", sans-serif;
   font-weight: 600;
   line-height: 1.4;
+  font-size: 1.1rem;
+  transition: 0.3s all ease-in-out;
+}
+
+.femi_Wrapper a:hover {
+  color: #000;
 }
 
 .femi_Wrapper h1 {
-  color: #cada3c;
+  color: #000;
   font-size: calc(1.325rem + 0.9vw);
   font-family: "Lato", sans-serif;
   font-weight: 600;
@@ -56,6 +63,16 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   color: #212529;
   margin-top: 1.1rem;
+}
+
+.femi_Wrapper .femi_Link {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.894rem;
+  border: 1px solid #cada3c;
+  padding: 10px 20px 10px 20px;
+  line-height: 4;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 768px) {

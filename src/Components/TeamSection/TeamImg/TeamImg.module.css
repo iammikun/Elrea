@@ -134,6 +134,10 @@
   line-height: 4;
 }
 
+.imgWrapperLast a {
+  font-family: "lato", sans-serif;
+}
+
 .imgWrapper a:hover,
 .imgWrapperOne a:hover,
 .imgWrapperThree a:hover,

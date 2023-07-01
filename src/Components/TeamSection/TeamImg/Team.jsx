@@ -88,7 +88,7 @@ const Team = () => {
           <div>
             <img src={edi} alt="" />
             <div className={classes.imgWrapperSix}>
-              <h5>Edifofon Akpan:</h5>
+              <h5>Edifofon Akpan</h5>
               <span>Head, Research and Development</span>
               <p>
                 Edifofon is a Pharmacist by training and a former researcher
@@ -136,7 +136,7 @@ const Team = () => {
           <div>
             <img src={kalu} alt="" />
             <div className={classes.imgWrapperThree}>
-              <h5>KALU DIMGBA: </h5>
+              <h5>Kalu Dimbga</h5>
               <span>Head, System and Technology Development.</span>
               <p>
                 Kalu is the head of IT in Elrae Technologies Ltd. He has worked
@@ -146,7 +146,11 @@ const Team = () => {
                 <Link to="/kalu_profile">Read full profile</Link>
               </p>
               <div className={classes.socials}>
-                <a href="https://www.linkedin.com/in/dkdimgba/">
+                <a
+                  href="https://www.linkedin.com/in/dkdimgba/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedinIn className={classes.media} />
                 </a>
               </div>
@@ -163,8 +167,8 @@ const Team = () => {
                 Olaniyan is an experienced legal practitioner with garnered
                 experiences spanning across the public and private
                 sectors respectively.
-                <Link to="/ola_profile">Read full profile</Link>
               </p>
+              <Link to="/ola_profile">Read full profile</Link>
               <div className={classes.socials}>
                 <a
                   href="https://www.linkedin.com/in/babayemi-olaniyan-ll-m-abr-aciarb-uk-acis-aicmc-a7739112b/"
@@ -179,7 +183,7 @@ const Team = () => {
           <div className={classes.lastWrap}>
             <img src={fifthImg} alt="" className={classes.lastImg} />
             <div className={classes.imgWrapperLast}>
-              <h5>FEMI AJE:</h5>
+              <h5>Femi Aje</h5>
               <span>Head, Strategy and Innovation</span>
               <p>
                 Prior to joining Trustfund Pensions Limited in 2010, Femi

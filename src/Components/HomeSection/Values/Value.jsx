@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Value.module.css";
-import value from "../../../Asset/Images/valueImg.jpg";
+import value from "../../../Asset/Images/value.png";
 
 const Value = () => {
   return (
