@@ -49,7 +49,7 @@ const Blog = () => {
           </div>
         </a>
         <a
-          href="https://businessday.ng/news/article/national-lottery-game-will-generate-employment-for-youths-create-wealth-fg/"
+          href="https://independent.ng/gbajabiamila-elrae-technologies-visit-ghana-over-plans-to-establish-nigerian-national-game/"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.news_Page}

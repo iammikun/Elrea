@@ -7,8 +7,9 @@ const Hero = () => {
       <div className={classes.heroContent}>
         <h2>OUR BUSINESS PARTNERS</h2>
         <p>
-          We have partnered with some of the most valuable brands and national
-          agencies across Nigeria and Africa at large.
+          Elrae Technologies has forged strategic partnerships with a myriad of
+          esteemed brannds and prominent national agencies spanning across
+          Nigeria and the broader expense of African continent.
         </p>
       </div>
     </div>

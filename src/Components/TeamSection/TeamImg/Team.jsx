@@ -207,7 +207,7 @@ const Team = () => {
           <div className={classes.last}>
             <img src={fati} alt="" />
             <div className={classes.imgWrapperSeven}>
-              <h5>Fatiregun Olubunmi: </h5>
+              <h5>Fatiregun Olubunmi </h5>
               <span>Technical Consultant</span>
               <p>
                 Olubunmi is the Technical Consultant for Elrae Technologies. He
