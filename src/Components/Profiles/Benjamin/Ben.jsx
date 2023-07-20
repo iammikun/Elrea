@@ -5,6 +5,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import benji from "../../../Asset/Images/benji.jpg";
 
 const Ben = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.ben_Container}>
       <div className={classes.ben_Wrapper}>

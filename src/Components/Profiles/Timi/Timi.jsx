@@ -5,6 +5,8 @@ import timi from "../../../Asset/Images/timi.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Timi = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.timi_Container}>
       <div className={classes.timi_Wrapper}>

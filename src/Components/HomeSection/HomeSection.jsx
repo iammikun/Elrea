@@ -1,18 +1,19 @@
 import React from "react";
 import Hero from "./Hero/Hero";
 import Services from "./Services/Services";
-import Work from "./Work/Work";
+// import Work from "./Work/Work";
 import Value from "./Values/Value";
 import Quote from "./Quote/Quote";
 import Create from "./Create/Create";
 import Blog from "./Blog/Blog";
 
 const HomeSection = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Hero />
       <Services />
-      <Work />
+      {/* <Work /> */}
       <Value />
       <Quote />
       <Create />

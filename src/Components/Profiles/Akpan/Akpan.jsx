@@ -5,6 +5,8 @@ import edi from "../../../Asset/Images/edi.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Akpan = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.akpan_Container}>
       <div className={classes.akpan_Wrapper}>

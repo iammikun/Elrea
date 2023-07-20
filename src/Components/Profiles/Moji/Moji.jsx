@@ -5,6 +5,8 @@ import moji from "../../../Asset/Images/moji.png";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const moji_profile = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.moji_Container}>
       <div className={classes.moji_Wrapper}>

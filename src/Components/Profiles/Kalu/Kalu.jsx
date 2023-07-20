@@ -5,6 +5,8 @@ import kalu from "../../../Asset/Images/kalu.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Kalu = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.kalu_Container}>
       <div className={classes.kalu_Wrapper}>

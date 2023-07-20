@@ -5,6 +5,8 @@ import baba from "../../../Asset/Images/baba.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Ola = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.ola_Container}>
       <div className={classes.ola_Wrapper}>

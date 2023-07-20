@@ -27,10 +27,12 @@
 
 .work_Sect {
   width: 55%;
+  text-decoration: none;
 }
 
 .work_Sect img {
   width: 100%;
+  border: 1px solid #000;
 }
 
 .work_Flex_Two {

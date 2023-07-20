@@ -5,6 +5,8 @@ import fifthImg from "../../../Asset/Images/fifthImg.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Femi = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.femi_Container}>
       <div className={classes.femi_Wrapper}>

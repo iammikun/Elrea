@@ -5,6 +5,8 @@ import classes from "./Tunde.module.css";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Tunde = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.tunde_Container}>
       <div className={classes.tunde_Wrapper}>

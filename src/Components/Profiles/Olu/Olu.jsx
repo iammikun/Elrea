@@ -5,6 +5,8 @@ import fati from "../../../Asset/Images/fati.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Olu = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.olu_Container}>
       <div className={classes.olu_Wrapper}>

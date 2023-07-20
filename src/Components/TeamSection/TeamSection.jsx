@@ -3,6 +3,7 @@ import Hero from "./TeamHero/Hero";
 import Team from "./TeamImg/Team";
 
 const TeamSection = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <div>

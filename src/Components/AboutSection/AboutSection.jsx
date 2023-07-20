@@ -5,6 +5,7 @@ import Vision from "./Vision/Vision";
 import Philosophy from "./Philosophy/Philosophy";
 
 const AboutSection = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Hero />
