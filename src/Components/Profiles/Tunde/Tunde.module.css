@@ -90,4 +90,8 @@
   .tunde_Wrapper p {
     font-size: 1rem;
   }
+
+  .tunde_Wrapper img {
+    width: 100%;
+  }
 }
