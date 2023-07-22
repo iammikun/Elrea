@@ -28,17 +28,16 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/moji_profile" element={<Moji />} />
-        <Route path="/timi_profile" element={<Timi />} />
-        <Route path="/benjamin_profile" element={<Ben />} />
-        <Route path="/akpan_profile" element={<Akpan />} />
-        <Route path="/tunde_profile" element={<Tunde />} />
-        <Route path="/kalu_profile" element={<Kalu />} />
-        <Route path="/ola_profile" element={<Ola />} />
-        <Route path="/femi_profile" element={<Femi />} />
-        <Route path="/olubunmi_profile" element={<Olu />} />
+        <Route path="/mojisola" element={<Moji />} />
+        <Route path="/timilehin" element={<Timi />} />
+        <Route path="/benjamin" element={<Ben />} />
+        <Route path="/akpan" element={<Akpan />} />
+        <Route path="/tunde" element={<Tunde />} />
+        <Route path="/kalu" element={<Kalu />} />
+        <Route path="/olaniyan" element={<Ola />} />
+        <Route path="/femi" element={<Femi />} />
+        <Route path="/olubunmi" element={<Olu />} />
       </Routes>
-      {/* <Subscribe /> */}
       <Footer />
     </div>
   );

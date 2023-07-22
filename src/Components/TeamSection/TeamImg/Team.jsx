@@ -26,8 +26,7 @@ const Team = () => {
                 Mojisola is an Information Technology and Project Management
                 professional with extensive experience in the ICT industry,
                 having worked in various sectors in Nigeria, the United States
-                and Canada. <br />{" "}
-                <Link to="/moji_profile">Read full profile</Link>
+                and Canada. <br /> <Link to="/mojisola">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -48,7 +47,7 @@ const Team = () => {
               <p className={classes.first}>
                 Timilehin is a dynamic entrepreneur with several projects across
                 tech and media content creation. <br />
-                <Link to="/timi_profile">Read full profile</Link>
+                <Link to="/timilehin">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -70,7 +69,7 @@ const Team = () => {
                 Ben as he is fondly called has an exceptional skill for detail
                 and very finicky about organization and problem solving. Ben is
                 an experienced financial analyst. <br />
-                <Link to="/benjamin_profile">Read full profile</Link>
+                <Link to="/benjamin">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -96,7 +95,7 @@ const Team = () => {
                 and efficient professional capable of multi-tasking and
                 discovering new ideas which can be put into
                 practice effectively. <br />{" "}
-                <Link to="/akpan_profile">Read full profile</Link>
+                <Link to="/akpan">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -120,7 +119,7 @@ const Team = () => {
                 consulting for multiple top private organizations like Dangote
                 Group, Hp Nigeria, Nigeria Breweries and public organizations
                 like Federal Government Ministries and Agencies. <br />
-                <Link to="/tunde_profile">Read full profile</Link>
+                <Link to="/tunde">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -143,7 +142,7 @@ const Team = () => {
                 as technology fellow and software engineer for Institute of
                 Journalism, Washington DC where he developed and built system
                 for investigative journalism. <br />{" "}
-                <Link to="/kalu_profile">Read full profile</Link>
+                <Link to="/kalu">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -168,7 +167,7 @@ const Team = () => {
                 experiences spanning across the public and private
                 sectors respectively.
               </p>
-              <Link to="/ola_profile">Read full profile</Link>
+              <Link to="/olaniyan">Read full profile</Link>
               <div className={classes.socials}>
                 <a
                   href="https://www.linkedin.com/in/babayemi-olaniyan-ll-m-abr-aciarb-uk-acis-aicmc-a7739112b/"
@@ -190,7 +189,7 @@ const Team = () => {
                 commenced his working career with Energy Saving Trust in 2005
                 from where he as role of programme assistant in charge of
                 managing a budget of $13m annually. <br />
-                <Link to="/femi_profile">Read full profile</Link>
+                <Link to="/femi">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
@@ -214,7 +213,7 @@ const Team = () => {
                 has worked on various projects in the telecommunications
                 industry in Nigeria and other African Countries like South
                 Africa, Ghana, Uganda and Cameroon. <br />{" "}
-                <Link to="/olubunmi_profile">Read full profile</Link>
+                <Link to="/olubunmi">Read full profile</Link>
               </p>
               <div className={classes.socials}>
                 <a
