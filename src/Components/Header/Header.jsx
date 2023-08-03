@@ -3,7 +3,7 @@ import Nav from "../HomeSection/Nav/Nav";
 import classes from "./Header.module.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from "../../Asset/Images/logo.jpg";
+import logo from "../../Asset/Images/logo.png";
 
 const Header = () => {
   const [active, setActive] = useState(false);

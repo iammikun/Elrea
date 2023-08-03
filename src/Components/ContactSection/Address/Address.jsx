@@ -13,7 +13,8 @@ const Address = () => {
             {" "}
             info@elraetechnologies.com
           </a>
-          <p>+2348155288800</p>
+          <p>+234 815 528 8800</p>
+          <p>+234 815 528 8788</p>
         </div>
       </div>
     </div>

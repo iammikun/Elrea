@@ -8,20 +8,57 @@
 .heroText {
   width: 80%;
   margin: 0 auto;
-  padding-top: 18rem;
-  padding-bottom: 7rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.heroText .active h1 {
+  opacity: 1;
+  transform: translateX(0px);
+  /* -webkit-transition-delay: 150ms;
+  -moz-transition-delay: 150ms;
+  -ms-transition-delay: 150ms;
+  -o-transition-delay: 150ms; */
+  transition-delay: 150ms;
 }
 
 .heroText h1 {
   font-weight: 700;
   font-family: "Lato", sans-serif;
   font-size: 3.1rem;
-  line-height: 1.2;
   width: 78%;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.4;
-  color: #fff;
+  color: #000;
+  position: relative;
+  animation: spin_words 3s infinite;
+}
+@keyframes spin_words {
+  50% {
+    transform: translateY(-25%);
+  }
+}
+
+.heroText h1::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  color: #197474;
+  background-color: #fff;
+  width: 100%;
+  animation: typing 3s steps(14) alternate infinite;
+  /* animation: line 1s infinite/; */
+}
+@keyframes typing {
+  to {
+    width: 0%;
+  }
+}
+@keyframes line {
+  50% {
+    color: transparent;
+  }
 }
 
 .heroImg {
@@ -29,17 +66,14 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
   background-blend-mode: multiply;
   height: 80vh;
-  background-color: #1e7c7c;
   width: 100%;
-  cursor: pointer;
   transition: all 0.5s;
 }
 
 .heroImg:hover {
-  background-color: #1c3f3f;
+  background-color: #197474;
   transition: all 0.5s;
 }
 

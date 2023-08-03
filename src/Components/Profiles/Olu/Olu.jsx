@@ -13,7 +13,7 @@ const Olu = () => {
         <Link to="/team">Back</Link>
         <img src={fati} alt="" />
         <h1>Fatiregun Olubunmi</h1>
-        <h3>Technical Consultant</h3>
+        <h3>Head, Technical</h3>
         <p>
           Fatiregun Olubunmi assumes the role of Technical Consultant at Elrae
           Technologies Ltd, showcasing his vast expertise garnered through
