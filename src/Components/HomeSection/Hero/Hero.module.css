@@ -16,7 +16,7 @@
 
 .heroText {
   width: 50%;
-  padding-top: 10rem;
+  padding-top: 8rem;
   padding-bottom: 10rem;
 }
 
@@ -39,8 +39,8 @@
   animation: spin_words 5s infinite;
 }
 @keyframes spin_words {
-  50% {
-    transform: translateY(-25%);
+  30% {
+    transform: translateY(-15%);
   }
 }
 
