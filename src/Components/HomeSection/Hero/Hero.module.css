@@ -15,10 +15,6 @@
 .heroText .active h1 {
   opacity: 1;
   transform: translateX(0px);
-  /* -webkit-transition-delay: 150ms;
-  -moz-transition-delay: 150ms;
-  -ms-transition-delay: 150ms;
-  -o-transition-delay: 150ms; */
   transition-delay: 150ms;
 }
 

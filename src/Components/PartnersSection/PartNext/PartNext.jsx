@@ -9,8 +9,9 @@ import mtn from "../../../Asset/Images/mtn.jpg";
 import rev from "../../../Asset/Images/rev.jpg";
 import NITDA from "../../../Asset/Images/NITDA.webp";
 import lottery from "../../../Asset/Images/lottery.jpg";
-// import moobitek from "../../../Asset/Images/moobitek.png";
+import gaming from "../../../Asset/Images/gaming.png";
 import moobifun from "../../../Asset/Images/moobifun.jpeg";
+import Airtel from "../../../Asset/Images/Airtel.png";
 
 const PartNext = () => {
   return (
@@ -55,17 +56,17 @@ const PartNext = () => {
         </div>
       </div>
       <div className={classes.partContentThree}>
-        {/* <div className={classes.invest}>
-          <img src={moobitek} alt="" />
-        </div> */}
+        <div className={classes.invest}>
+          <img src={Airtel} alt="" />
+        </div>
         <div className={classes.bank}>
           {" "}
           <img src={moobifun} alt="" />
         </div>
-        {/* <div className={classes.bank}>
+        <div className={classes.bank}>
           {" "}
-          <img src={lottery} alt="" />
-        </div> */}
+          <img src={gaming} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import benji from "../../../Asset/Images/benji.jpg";
 import baba from "../../../Asset/Images/baba.jpg";
 import tunde from "../../../Asset/Images/tunde.jpg";
 import kalu from "../../../Asset/Images/kalu.jpg";
-import edi from "../../../Asset/Images/edi.jpg";
+import joseph from "../../../Asset/Images/joseph.jpg";
 import fati from "../../../Asset/Images/fati.jpg";
 import fifthImg from "../../../Asset/Images/fifthImg.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -85,16 +85,15 @@ const Team = () => {
         </div>
         <div className={classes.flexOne}>
           <div>
-            <img src={edi} alt="" />
+            <img src={joseph} alt="" />
             <div className={classes.imgWrapperSix}>
-              <h5>Edifofon Akpan</h5>
-              <span>Head, Research and Development</span>
+              <h5>Joseph Attah</h5>
+              <span>Head, Infrastructure</span>
               <p>
-                Edifofon is a Pharmacist by training and a former researcher
-                with NIPRD Abuja, he is an extreme detailed oriented, organized
-                and efficient professional capable of multi-tasking and
-                discovering new ideas which can be put into
-                practice effectively. <br />{" "}
+                Joseph Attah serves as the esteemed Chief Executive Officer and
+                Managing Director of Evolve Digital Africa Limited, an
+                avant-garde telecommunications and IT infrastructure service
+                company located in Abuja, Nigeria. <br />{" "}
                 <Link to="/akpan">Read full profile</Link>
               </p>
               <div className={classes.socials}>

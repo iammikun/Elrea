@@ -10,7 +10,7 @@ import Contact from './Pages/Contact/Contact';
 import Moji from './Components/Profiles/Moji/Moji';
 import Timi from './Components/Profiles/Timi/Timi';
 import Ben from './Components/Profiles/Benjamin/Ben';
-import Akpan from './Components/Profiles/Akpan/Akpan';
+import Joseph from './Components/Profiles/Joseph/Joseph';
 import Tunde from './Components/Profiles/Tunde/Tunde';
 import Kalu from './Components/Profiles/Kalu/Kalu';
 import Ola from './Components/Profiles/Ola/Ola';
@@ -31,7 +31,7 @@ function App() {
         <Route path="/mojisola" element={<Moji />} />
         <Route path="/timilehin" element={<Timi />} />
         <Route path="/benjamin" element={<Ben />} />
-        <Route path="/akpan" element={<Akpan />} />
+        <Route path="/akpan" element={<Joseph />} />
         <Route path="/tunde" element={<Tunde />} />
         <Route path="/kalu" element={<Kalu />} />
         <Route path="/olaniyan" element={<Ola />} />
