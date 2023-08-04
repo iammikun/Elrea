@@ -31,7 +31,7 @@ function App() {
         <Route path="/mojisola" element={<Moji />} />
         <Route path="/timilehin" element={<Timi />} />
         <Route path="/benjamin" element={<Ben />} />
-        <Route path="/akpan" element={<Joseph />} />
+        <Route path="/joseph" element={<Joseph />} />
         <Route path="/tunde" element={<Tunde />} />
         <Route path="/kalu" element={<Kalu />} />
         <Route path="/olaniyan" element={<Ola />} />
