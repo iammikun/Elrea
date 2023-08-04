@@ -79,10 +79,10 @@
   transition: all 0.5s;
 }
 
-.heroImg:hover {
+/* .heroImg:hover {
   background-color: #197474;
   transition: all 0.5s;
-}
+} */
 
 @media screen and (max-width: 1440px) {
   .heroWrapper {
