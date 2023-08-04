@@ -98,7 +98,7 @@ const Team = () => {
               </p>
               <div className={classes.socials}>
                 <a
-                  href="https://www.linkedin.com/in/edifofon/"
+                  href="https://www.linkedin.com/in/ogaba-joseph-attah-6a7851118/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
